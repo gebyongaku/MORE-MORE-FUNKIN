@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				83,
+				25
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-24,
+				21
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-15,
+				-24
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				10,
+				41
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": [],
+			"flipX": false
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/minori",
+	"position": [
+		10,
+		90
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "minori",
+	"gameover_character": null,
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colour": -2976381,
+	"camera_position": [
+		110,
+		20
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

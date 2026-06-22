@@ -1,0 +1,137 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				66,
+				24
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"flipX": false,
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-28,
+				18
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"flipX": false,
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				2,
+				-24
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"flipX": false,
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				36,
+				41
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"flipX": false,
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"flipX": false,
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"flipX": false,
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/haruka",
+	"position": [
+		20,
+		60
+	],
+	"dance_every": 1,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "haruka",
+	"gameover_character": null,
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colour": -13209691,
+	"camera_position": [
+		90,
+		40
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

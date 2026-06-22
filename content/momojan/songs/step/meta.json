@@ -1,0 +1,12 @@
+{
+    "songName": "Step",
+    "displayName": "Step",
+
+    "composers": ["gi"],
+    "charters": ["gi"],
+
+    "difficulties": ["Normal"],
+
+    "freeplayColor": "#D29583",
+    "freeplayIcon": "minori",
+}

@@ -1,0 +1,12 @@
+{
+    "songName": "Smile",
+    "displayName": "Smile",
+
+    "composers": ["ovo"],
+    "charters": ["gi"],
+
+    "difficulties": ["Normal"],
+
+    "freeplayColor": "#366FA5",
+    "freeplayIcon": "haruka",
+}

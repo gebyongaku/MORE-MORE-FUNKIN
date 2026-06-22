@@ -1,0 +1,9 @@
+{
+    "name": "MORE MORE FUNKIN'",
+    "description": "Sing with Minori, Haruka, Airi and Shizuku from MORE MORE JUMP!",
+    "global": true,
+
+    "windowTitle": "MORE MORE FUNKIN'",
+    "iconFile": "UI/icon64",
+    "defaultTransition": "swipe"
+}

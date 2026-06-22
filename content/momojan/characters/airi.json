@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"flipX": false,
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				45,
+				28
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"flipX": false,
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-58,
+				15
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"flipX": false,
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-34,
+				-21
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"flipX": false,
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				0,
+				55
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"flipX": false,
+			"indices": [],
+			"name": "up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/airi",
+	"position": [
+		-40,
+		90
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "airi",
+	"gameover_character": null,
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colour": -22610,
+	"camera_position": [
+		140,
+		10
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}
