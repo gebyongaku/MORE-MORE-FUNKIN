@@ -57,7 +57,7 @@ function onLoad()
 	airi1.antialiasing = true;
 	add(airi1);
 
-    shizuku1 = new Bopper(1400, 20).loadAtlas('MMJ/step/shizuku_minori_bg');
+    shizuku1 = new Bopper(1390, 10).loadAtlas('MMJ/step/shizuku_minori_bg');
 	shizuku1.addAnimByPrefix("idle", "minori/shizuku bg", 24, false);
 	shizuku1.animation.play("idle");
 	shizuku1.scale.set(1, 1);
