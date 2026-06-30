@@ -112,7 +112,7 @@ class Splash extends FlxState
 							{
 								ease: FlxEase.quadIn,
 								onComplete: (t:FlxTween) -> {
-									FlxTimer.wait(0.8, finish);
+									FlxTimer.wait(1.8, finish);
 								}
 							});
 				}
