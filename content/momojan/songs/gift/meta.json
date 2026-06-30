@@ -1,0 +1,12 @@
+{
+    "songName": "Gift",
+    "displayName": "Gift",
+
+    "composers": ["ovo"],
+    "charters": ["gi"],
+
+    "difficulties": ["Normal"],
+
+    "freeplayColor": "#99EEDD",
+    "freeplayIcon": "shizuku",
+}

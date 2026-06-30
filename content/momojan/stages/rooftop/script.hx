@@ -65,7 +65,7 @@ function onLoad()
 	shizuku1.antialiasing = true;
 	add(shizuku1);
 
-    if (songName == 'smile')
+    if (songName == "smile" || songName == "love" || songName == "gift")
     {
         haruka1.alpha = 0;
         airi1.alpha = 0;
