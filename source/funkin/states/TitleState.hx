@@ -20,7 +20,7 @@ class TitleState extends MusicBeatState
 	var skippedIntro:Bool = false;
 	var transitioning:Bool = false;
 	
-	var introEndingText:Array<String> = ['MORE', 'MORE', "FUNKIN'!"];
+	var introEndingText:Array<String> = ['MORE', 'MORE', "FUNKIN'"];
 	var randomIntroText:Array<String> = [];
 	
 	// objects
@@ -73,13 +73,13 @@ class TitleState extends MusicBeatState
 			FunkinSound.playMusic(Paths.music('freakyMenu'), 0);
 		}
 		
-		Conductor.bpm = 176;
+		Conductor.bpm = 133;
 		
 		if (scriptGroup.call('onStartIntro') != ScriptConstants.STOP_FUNC)
 		{
 			swagShader = new ColorSwap();
 			
-			logo = new FlxSprite(-150, -100).loadAtlasFrames(Paths.getAtlasFrames('menus/title/logoBumpin'));
+			logo = new FlxSprite(20, 50).loadAtlasFrames(Paths.getAtlasFrames('menus/title/logoBumpin'));
 			logo.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 			logo.animation.play('bump');
 			logo.updateHitbox();
@@ -272,8 +272,6 @@ class TitleState extends MusicBeatState
 				case 16:
 					if (introEndingText[2] != null) addMoreText(introEndingText[2]);
 				case 17:
-					deleteCoolText();
-				case 18:
 					skipIntro();
 			}
 		}

@@ -11,9 +11,12 @@ var haruka1:FlxSprite;
 var airi1:FlxSprite;
 var shizuku1:FlxSprite;
 
+var minori1:FlxSprite;
+var airi2:FlxSprite;
+var braco:FlxSprite;
+var shizuku2:FlxSprite;
+
 var songName:String = Paths.sanitize(PlayState.SONG.song);
-
-
 
 function onLoad() 
 {
@@ -47,7 +50,6 @@ function onLoad()
 	haruka1.scrollFactor.set(1, 1);
 	haruka1.antialiasing = true;
     haruka1.zIndex = 1;
-	add(haruka1);
 
     airi1 = new Bopper(1100, 10).loadAtlas('MMJ/step/airi_minori_bg');
 	airi1.addAnimByPrefix("idle", "minori/airi bg", 24, false);
@@ -55,7 +57,6 @@ function onLoad()
 	airi1.scale.set(1, 1);
 	airi1.scrollFactor.set(1, 1);
 	airi1.antialiasing = true;
-	add(airi1);
 
     shizuku1 = new Bopper(1390, 10).loadAtlas('MMJ/step/shizuku_minori_bg');
 	shizuku1.addAnimByPrefix("idle", "minori/shizuku bg", 24, false);
@@ -63,13 +64,53 @@ function onLoad()
 	shizuku1.scale.set(1, 1);
 	shizuku1.scrollFactor.set(1, 1);
 	shizuku1.antialiasing = true;
-	add(shizuku1);
 
-    if (songName == "smile" || songName == "love" || songName == "gift")
+    minori1 = new Bopper(-680, 60).loadAtlas('MMJ/smile/minori_haruka_bg');
+	minori1.addAnimByPrefix("idle", "haruka/minori bg", 24, false);
+	minori1.animation.play("idle");
+	minori1.scale.set(0.9, 0.9);
+	minori1.scrollFactor.set(1, 1);
+	minori1.antialiasing = true;
+
+    airi2 = new Bopper(90, 100).loadAtlas("MMJ/smile/airi_haruka_bg");
+    airi2.addAnimByIndices('danceLeft', 'haruka/airi bg', MathUtil.numberArray(0, 14), 24, false);
+	airi2.addAnimByIndices('danceRight', 'haruka/airi bg', MathUtil.numberArray(15, 29), 24, false);
+    airi2.dance(); 
+    airi2.animation.play('danceLeft');
+	airi2.scale.set(1.03, 1.03);
+	airi2.scrollFactor.set(1, 1);
+	airi2.antialiasing = true;
+
+    braco = new Bopper(280, 290).loadAtlas("MMJ/smile/airi_braco");
+    braco.addAnimByIndices('danceLeft', 'haruka/airi bg 2', MathUtil.numberArray(0, 14), 24, false);
+	braco.addAnimByIndices('danceRight', 'haruka/airi bg 2', MathUtil.numberArray(15, 29), 24, false);
+    braco.dance(); 
+    braco.animation.play('danceLeft');
+	braco.scale.set(1.03, 1.03);
+	braco.scrollFactor.set(1, 1);
+	braco.antialiasing = true;
+    braco.zIndex = 1;
+
+    shizuku2 = new Bopper(630, 50).loadAtlas('MMJ/smile/shizuku_haruka_bg');
+	shizuku2.addAnimByPrefix("idle", "haruka/shizuku bg", 24, false);
+	shizuku2.animation.play("idle");
+	shizuku2.scale.set(1.03, 1.03);
+	shizuku2.scrollFactor.set(1, 1);
+	shizuku2.antialiasing = true;
+
+    if (songName == "step")
     {
-        haruka1.alpha = 0;
-        airi1.alpha = 0;
-        shizuku1.alpha = 0;
+        add(haruka1);
+        add(airi1);
+        add(shizuku1);
+    }
+
+    if (songName == "smile")
+    {
+        add(minori1);
+        add(airi2);
+        add(braco);
+        add(shizuku2);
     }
 
 	public function dance():Void
@@ -87,6 +128,10 @@ function onCountdownTick()
     haruka1.dance();
     airi1.animation.play("idle");
     shizuku1.animation.play("idle");
+    minori1.animation.play("idle");
+    airi2.dance();
+    braco.dance();
+    shizuku2.animation.play("idle");
 }
 
 function onBeatHit()
@@ -94,4 +139,8 @@ function onBeatHit()
     haruka1.dance();
     airi1.animation.play("idle");
     shizuku1.animation.play("idle");
+    minori1.animation.play("idle");
+    airi2.dance();
+    braco.dance();
+    shizuku2.animation.play("idle");
 }

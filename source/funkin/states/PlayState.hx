@@ -787,8 +787,8 @@ class PlayState extends MusicBeatState
 		
 		FlxG.worldBounds.set(0, 0, FlxG.width, FlxG.height);
 		
-		botplayTxt = new FlxText(400, 540, FlxG.width - 800, "BOTPLAY", 36);
-		botplayTxt.setFormat(Paths.font("FOT-RodinNTLG Pro DB.otf"), 36, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		botplayTxt = new FlxText(400, 540, FlxG.width - 800, "AUTO", 36);
+		botplayTxt.setFormat(Paths.font("FOT-RodinNTLG Pro DB.otf"), 36, 0xFFF9CF51, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 2.5;
 		botplayTxt.visible = cpuControlled;
