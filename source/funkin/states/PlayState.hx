@@ -756,7 +756,6 @@ class PlayState extends MusicBeatState
 		{
 			screenDim = new FlxSprite().makeGraphic(1, 1, FlxColor.BLACK);
 			screenDim.alpha = ClientPrefs.underlayOpacity;
-			screenDim.scrollFactor.set();
 			screenDim.camera = camHUD;
 			add(screenDim);
 		}
@@ -789,7 +788,6 @@ class PlayState extends MusicBeatState
 		
 		botplayTxt = new FlxText(400, 540, FlxG.width - 800, "AUTO", 36);
 		botplayTxt.setFormat(Paths.font("FOT-RodinNTLG Pro DB.otf"), 36, 0xFFF9CF51, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 2.5;
 		botplayTxt.visible = cpuControlled;
 		if (ClientPrefs.downScroll) botplayTxt.y = FlxG.height - botplayTxt.height - 55;
@@ -1108,7 +1106,6 @@ class PlayState extends MusicBeatState
 		final pref = countdownPrefix != Paths.COUNTDOWN_PREFIX ? countdownPrefix : Paths.COUNTDOWN_PREFIX;
 		
 		final spr = new FlxSprite().loadGraphic(Paths.image(pref + path));
-		spr.scrollFactor.set();
 		spr.updateHitbox();
 		
 		spr.screenCenter();

@@ -346,7 +346,7 @@ class Mods
 		
 		currentModConfig = pack;
 		
-		WindowUtil.setTitle(pack.windowTitle ?? 'Friday Night Funkin');
+		WindowUtil.setTitle(pack.windowTitle ?? 'MORE MORE FUNKIN');
 		
 		inline function resetIcon()
 		{

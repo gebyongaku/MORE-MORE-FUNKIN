@@ -62,7 +62,6 @@ class PsychHUD extends BaseHUD
 		healthBar = new Bar(0, FlxG.height * (!ClientPrefs.downScroll ? 0.89 : 0.11), healthGraphic, function() return parent.health, parent.healthBounds.min, parent.healthBounds.max);
 		healthBar.screenCenter(X);
 		healthBar.leftToRight = false;
-		healthBar.scrollFactor.set();
 		healthBar.visible = !ClientPrefs.hideHud;
 		healthBar.alphaMultipler = ClientPrefs.healthBarAlpha;
 		
@@ -83,7 +82,6 @@ class PsychHUD extends BaseHUD
 		
 		scoreTxt = new FlxText(0, healthBar.y + 30, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("FOT-RodinNTLG Pro DB.otf"), 18, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.3;
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
@@ -91,7 +89,6 @@ class PsychHUD extends BaseHUD
 		var showTime:Bool = (ClientPrefs.timeBarType != 'Disabled');
 		timeTxt = new FlxText(0, 80, FlxG.width, "", 32);
 		timeTxt.setFormat(Paths.font("FOT-RodinNTLG Pro DB.otf"), 36, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		timeTxt.scrollFactor.set();
 		timeTxt.alpha = 0;
 		timeTxt.borderSize = 3;
 		timeTxt.visible = parent.updateTime = showTime;
@@ -106,7 +103,6 @@ class PsychHUD extends BaseHUD
 		final timeGraphic = FunkinAssets.exists(Paths.mods('images/${Paths.UI_PREFIX}timeBar')) ? '${Paths.UI_PREFIX}timeBar' : 'UI/timeBar';
 		
 		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), timeGraphic, function() return parent.songPercent, 0, 1);
-		timeBar.scrollFactor.set();
 		timeBar.screenCenter(X);
 		timeBar.alpha = 0;
 		timeBar.visible = showTime;

@@ -41,7 +41,7 @@ function onLoad()
     front.scrollFactor.set(1, 1);
 	add(front);
 
-    haruka1 = new Bopper(525, 20).loadAtlas("MMJ/step/haruka_minori_bg");
+    haruka1 = new Bopper(570, 30).loadAtlas("MMJ/step/haruka_minori_bg");
     haruka1.addAnimByIndices('danceLeft', 'minori/haruka gf', MathUtil.numberArray(0, 14), 24, false);
 	haruka1.addAnimByIndices('danceRight', 'minori/haruka gf', MathUtil.numberArray(15, 29), 24, false);
     haruka1.dance(); 
@@ -143,4 +143,26 @@ function onBeatHit()
     airi2.dance();
     braco.dance();
     shizuku2.animation.play("idle");
+}
+
+function onEvent(name, v1, v2)
+{
+    switch (name)
+	{
+		case 'Jump':
+			switch (v1)
+			{
+				case 'haruka':
+					isCameraOnForcedPos = true;
+					snapCamToPos(155, 470);
+				case 'bf':
+					isCameraOnForcedPos = true;
+					snapCamToPos(867, 496);
+				case 'gf':
+					isCameraOnForcedPos = true;
+					snapCamToPos(510, 350);
+				case 'normal':
+					isCameraOnForcedPos = false;
+            }
+    }
 }
