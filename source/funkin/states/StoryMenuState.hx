@@ -82,7 +82,7 @@ class StoryMenuState extends MusicBeatState
 		rankText.screenCenter(X);
 		
 		var ui_tex = Paths.getSparrowAtlas('menus/story/ui_elements');
-		var bgYellow:FlxSprite = new FlxSprite(0, 56).makeGraphic(FlxG.width, 386, 0xFFF9CF51);
+		var bgYellow:FlxSprite = new FlxSprite(0, 56).makeGraphic(FlxG.width, 386, 0xFF88DD44);
 		bgSprite = new FlxSprite(0, 56);
 		
 		grpWeekText = new FlxTypedGroup<MenuItem>();
@@ -176,7 +176,7 @@ class StoryMenuState extends MusicBeatState
 		txtTracklist = new FlxText(FlxG.width * 0.05, tracksSprite.y + 60, 0, "", 32);
 		txtTracklist.alignment = CENTER;
 		txtTracklist.font = rankText.font;
-		txtTracklist.color = 0xFFe55777;
+		txtTracklist.color = 0xFF88DD44;
 		add(txtTracklist);
 		add(rankText);
 		rankText.kill();
@@ -216,17 +216,6 @@ class StoryMenuState extends MusicBeatState
 		{
 			var upP = controls.UI_UP_P;
 			var downP = controls.UI_DOWN_P;
-			if (upP)
-			{
-				changeWeek(-1);
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-			}
-			
-			if (downP)
-			{
-				changeWeek(1);
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-			}
 			
 			if (controls.UI_RIGHT) rightArrow.animation.play('press')
 			else rightArrow.animation.play('idle');

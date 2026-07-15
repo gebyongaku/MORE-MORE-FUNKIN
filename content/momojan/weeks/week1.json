@@ -39,7 +39,7 @@
 	],
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
-	"weekBackground": "stage",
+	"weekBackground": "mmj",
 	"difficulties": [
 		"Normal"
 	],
@@ -48,8 +48,8 @@
 		"",
 		""
 	],
-	"storyName": "MMJ!",
-	"weekName": "Custom Week",
+	"storyName": "Funkin' and Training!",
+	"weekName": "MORE MORE JUMP!",
 	"freeplayColor": [
 		146,
 		113,
