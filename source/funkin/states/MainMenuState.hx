@@ -28,13 +28,16 @@ class MainMenuState extends MusicBeatState
 	final debugKeys:Array<FlxKey> = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
 	
 	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options'];
+
+	var posX:Array<Float> = [720, 710, 950, 710];
+	var posY:Array<Float> = [100, 300, 300, 500];
 	
 	var canInteract:Bool = false;
 	
 	var menuItems:Null<FlxTypedGroup<FlxSprite>> = null;
 	
+	var phone:Null<FlxSprite> = null;
 	var magenta:Null<FlxSprite> = null;
-	var camFollow:Null<FlxObject> = null;
 	
 	override function create()
 	{
@@ -50,19 +53,19 @@ class MainMenuState extends MusicBeatState
 		
 		initStateScript();
 		
-		camFollow = new FlxObject(FlxG.width / 2, 0, 1, 1);
-		add(camFollow);
-		
-		FlxG.camera.follow(camFollow, null, 0.075);
-		
 		final yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		
+
 		var bg:FlxSprite = new FlxSprite(-80, 0, Paths.image('menus/menuBG'));
 		bg.scrollFactor.set(0, yScroll);
 		bg.scale.scale(1.175);
 		bg.updateHitbox();
 		bg.screenCenter();
 		add(bg);
+
+		phone = new FlxSprite(640, 10, Paths.image('menus/phone'));
+		phone.updateHitbox();
+		phone.scale.scale(1.18);
+		add(phone);
 		
 		magenta = new FlxSprite(-80, 0, Paths.image('menus/menuDesat'));
 		magenta.scrollFactor.copyFrom(bg.scrollFactor);
@@ -78,16 +81,17 @@ class MainMenuState extends MusicBeatState
 		
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			
-			final menuItem:FlxSprite = new FlxSprite(0, (i * 140) + offset);
+			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 20;
+	
+			final menuItem:FlxSprite = new FlxSprite(posX[i], posY[i]);
 			menuItem.frames = Paths.getSparrowAtlas('menus/mainmenu/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
+			menuItem.scale.scale(0.9);
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
+			
 			
 			final scr:Float = optionShit.length < 6 ? 0 : (optionShit.length - 4) * 0.135;
 			
@@ -95,10 +99,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 		}
 		
-		var gitHash = GitMacro.getGitCommitHash();
-		if (gitHash.length != 0) gitHash = ' - dev($gitHash)';
-		
-		final ver = "Nightmare Vision Engine v" + Main.NMV_VERSION + gitHash + '\nPsych Engine v' + Main.PSYCH_VERSION + "\nFriday Night Funkin' v" + Main.FUNKIN_VERSION;
+		final ver = "Nightmare Vision Engine V" + Main.NMV_VERSION + '\nPsych Engine v' + Main.PSYCH_VERSION + "\nFriday Night Funkin' v" + Main.FUNKIN_VERSION;
 		
 		final verionDesc:FlxText = new FlxText(12, 0, 0, ver, 16);
 		verionDesc.setFormat(Paths.DEFAULT_FONT, 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -151,8 +152,6 @@ class MainMenuState extends MusicBeatState
 					canInteract = true;
 					FunkinSound.play(Paths.sound('confirmMenu'));
 					
-					if (ClientPrefs.flashing && magenta != null) FlxFlicker.flicker(magenta, 1.1, 0.15, false);
-					
 					final selectedObj = menuItems.members[curSelected];
 					
 					FlxFlicker.flicker(selectedObj, 1, 0.06, false, false, (s) -> {
@@ -201,6 +200,5 @@ class MainMenuState extends MusicBeatState
 		newObj.centerOffsets();
 		
 		final add:Float = menuItems.length > 4 ? menuItems.length * 8 : 0;
-		camFollow.y = newObj.getGraphicMidpoint().y - add;
 	}
 }

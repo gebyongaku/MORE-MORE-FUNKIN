@@ -20,14 +20,12 @@ class TitleState extends MusicBeatState
 	var skippedIntro:Bool = false;
 	var transitioning:Bool = false;
 	
-	var introEndingText:Array<String> = ['MORE', 'MORE', "FUNKIN'"];
+	var introEndingText:Array<String> = ['MORE', 'MORE', 'FUNKIN'];
 	var randomIntroText:Array<String> = [];
 	
 	// objects
 	var textGroup:Null<FlxGroup> = null;
-	var ngSpr:Null<FlxSprite> = null;
 	var logo:Null<FlxSprite> = null;
-	var gfDance:Null<FlxSprite> = null;
 	var titleText:Null<FlxSprite> = null;
 	var swagShader:Null<ColorSwap> = null;
 	
@@ -79,18 +77,13 @@ class TitleState extends MusicBeatState
 		{
 			swagShader = new ColorSwap();
 			
-			logo = new FlxSprite(20, 50).loadAtlasFrames(Paths.getAtlasFrames('menus/title/logoBumpin'));
+			logo = new FlxSprite(280, 200).loadAtlasFrames(Paths.getAtlasFrames('menus/title/logoBumpin'));
 			logo.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 			logo.animation.play('bump');
 			logo.updateHitbox();
+	        logo.scale.set(1.4, 1.4);
 			add(logo);
 			logo.shader = swagShader.shader;
-			
-			gfDance = new FlxSprite(512, 40).loadAtlasFrames(Paths.getAtlasFrames('menus/title/gfDanceTitle'));
-			gfDance.animation.addByIndices('danceLeft', 'gfDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
-			gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
-			add(gfDance);
-			gfDance.shader = swagShader.shader;
 			
 			titleText = new FlxSprite(100, 576).loadAtlasFrames(Paths.getAtlasFrames('menus/title/titleEnter'));
 			titleText.animation.addByPrefix('idle', "Press Enter to Begin", 24);
@@ -102,15 +95,7 @@ class TitleState extends MusicBeatState
 			textGroup = new FlxGroup();
 			add(textGroup);
 			
-			ngSpr = new FlxSprite(0, FlxG.height * 0.52, Paths.image('menus/title/newgrounds_logo'));
-			add(ngSpr);
-			ngSpr.visible = false;
-			ngSpr.scale.scale(0.8);
-			ngSpr.updateHitbox();
-			ngSpr.screenCenter(X);
-			
 			logo.alpha = 0.001;
-			gfDance.alpha = 0.001;
 			titleText.alpha = 0.001;
 		}
 		
@@ -187,7 +172,7 @@ class TitleState extends MusicBeatState
 		
 		final coolText:Alphabet = new Alphabet(0, 0, text, true);
 		coolText.screenCenter(X);
-		coolText.y += (textGroup.length * 60) + 200 + offset;
+		coolText.y += (textGroup.length * 70) + 200 + offset;
 		textGroup.add(coolText);
 	}
 	
@@ -231,34 +216,17 @@ class TitleState extends MusicBeatState
 			logo.animation.play('bump', true);
 		}
 		
-		if (gfDance != null)
-		{
-			danceLeft = !danceLeft;
-			gfDance.animation.play(danceLeft ? 'danceRight' : 'danceLeft');
-		}
-		
 		if (!closedState)
 		{
 			switch (sickBeats)
 			{
 				case 1:
-					FunkinSound.playMusic(Paths.music('freakyMenu'), 0);
-					
-					FlxG.sound.music.fadeIn(4, 0, 0.7);
-				case 2:
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-				case 4:
-					addMoreText('present');
-				case 5:
-					deleteCoolText();
-				case 6:
-					createCoolText(['In association', 'with'], -40);
-				case 8:
-					addMoreText('newgrounds', -40);
-					if (ngSpr != null) ngSpr.visible = true;
+					FunkinSound.playMusic(Paths.music('freakyMenu'), 0.7);
+					createCoolText(['MMF Team']);
+				case 3:
+					addMoreText('presents');
 				case 9:
 					deleteCoolText();
-					if (ngSpr != null) ngSpr.visible = false;
 				case 10:
 					if (randomIntroText[0] != null) createCoolText([randomIntroText[0]]);
 				case 12:
@@ -281,11 +249,9 @@ class TitleState extends MusicBeatState
 	{
 		if (scriptGroup.call('onSkipIntro', []) != ScriptConstants.STOP_FUNC && !skippedIntro)
 		{
-			ngSpr?.kill();
 			textGroup?.kill();
 			
 			if (logo != null) logo.alpha = 1;
-			if (gfDance != null) gfDance.alpha = 1;
 			if (titleText != null) titleText.alpha = 1;
 			
 			FlxG.camera.flash(FlxColor.WHITE, 4);

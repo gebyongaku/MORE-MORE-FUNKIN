@@ -50,7 +50,14 @@ class CreditsState extends MusicBeatState
 {
 	@:unreflective
 	static final hardcodedCredits:Array<Array<String>> = [
+		// MMF devs
+		['MMF Team'],
+		['gi', 'gi', 'Director, Animator, Artist, Composer and Coder', 'https://twitter.com/gebyongaku', '0xFF53B7D8'],
+		['ovo', '', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xF9A250'],
+		['lwverin', '', 'Background Artist', 'https://twitter.com/lwverin', '0x9B00B3'],
+		['AquelaAylaLa', 'ayla', 'Writer', 'https://twitter.com/AquelaAylaLa', '0xFFFFFFFF'],
 		// NMV devs
+		[''],
 		['NIGHTMARE FEDS'],
 		['DuskieWhy', 'duskie', 'Programmer of Nightmare Vision', 'https://twitter.com/DuskieWhy', '0xA8324A'],
 		['data5', 'data', 'Programmer of Nightmare Vision', 'https://x.com/_data5', '0xF9A250'],
@@ -62,42 +69,7 @@ class CreditsState extends MusicBeatState
 		['Engine Contributors'],
 		["crowplexus", "crowplexus", "Creator of HScript-Iris and various PR's", "https://twitter.com/crowplexus", "0xCFCFCF"],
 		['MAJigsaw77', 'majigsaw', 'Creator of Hxvlc', 'https://x.com/MAJigsaw77', '0x6E6E6E'],
-		['maybeMaru', '', 'Creator of Moonchart and Flixel-Animate', 'https://x.com/maybemaru_', '0x4D5DBD'],
-		// Thanks
-		[''],
-		['Special Thanks'],
-		['Infry', 'infry', 'Chart editor little buddies', 'https://x.com/Infry20', '0x8d00df'],
-		['PurpleKav', 'purple', 'Chart editor little buddies', 'https://twitter.com/PurpleKav', '0xFF9632a8'],
-		['Rozebud', 'rozebud', 'Chart editor little buddies', 'https://x.com/helpme_thebigt', '0x9C2B2B'],
-		['riconuts', 'riconuts', 'Created the basis of some backend elements', 'https://x.com/riconut', '0x9225be'],
-		['Lethrial', 'leth', 'Bug fixes', 'https://twitter.com/lethrial', '0xFF32a852'],
-		['Iceptual', 'ice', 'Bug fixes', 'https://x.com/iceptual', '0xFFa86132'],
-		['Aqua', 'aqua', 'Bug fixes, stupid and doesnt have an icon', 'https://x.com/theuseraqua', '0x5833B6'],
-		['Ito Saihara', 'ito', 'my friend', 'https://x.com/ItoSaihara_', '0xFFc73c3c'],
-		['Decoy', 'decoy', 'helped with bugs, day one nmv supporter', 'https://www.youtube.com/watch?v=PuYZ-9zcp4w', '0x5833B6'],
-		['PHO', 'pho', 'help with extra keys', 'https://twitter.com/Phomow1', '0x7455be'],
-		['Logo Contributors', 'thanks', 'thank u grossalicious, marco antonio, joggingscout & tgg for making logos i love u mwah mwah', 'https://www.youtube.com/watch?v=ZFnizww3JJg', '0xFF7d7d7d'],
-		['External Contributors', 'thanks', 'thank u crossknife for the move songs batch file, thank you wrathstetic for the intro logo sound effect, thank u orbyyorbinaut for the pixel KUTTY rating', 'https://www.youtube.com/watch?v=ZFnizww3JJg', '0xFF7d7d7d'],
-		// Psych engine devs
-		[''],
-		['Psych Engine Team'],
-		['Shadow Mario', 'shadowmario', 'Main Programmer of Psych Engine', 'https://twitter.com/Shadow_Mario_', '0x444444'],
-		['Riveren', 'riveren', 'Main Artist/Animator of Psych Engine', 'https://twitter.com/RiverOaken', '0xC30085'],
-		[''],
-		['Former Psych Members'],
-		['bb-panzu', 'bb-panzu', 'Ex-Programmer of Psych Engine', 'https://twitter.com/bbsub3', '0x389A58'],
-		[''],
-		['Psych Contributions'],
-		['iFlicky', 'iflicky', 'Composer of Psync and Tea Time\nMade the Dialogue Sounds', 'https://twitter.com/flicky_i', '0xAA32FE'],
-		['SqirraRNG', 'sqirra', 'Chart Editor\'s Sound Waveform base', 'https://x.com/sqirradotdev', '0xFF9300'],
-		// Funkin crew !
-		[''],
-		["Funkin' Crew"],
-		['ninjamuffin99', 'ninjamuffin99', "Programmer of Friday Night Funkin'", 'https://twitter.com/ninja_muffin99', '0xF73838'],
-		['eliteMasterEric', 'mastereric', "Programmer of Friday Night Funkin'", 'https://x.com/EliteMasterEric', '0xF79838'],
-		['PhantomArcade', 'phantomarcade', "Animator of Friday Night Funkin'", 'https://twitter.com/PhantomArcade3K', '0xFFBB1B'],
-		['evilsk8r', 'evilsk8r', "Artist of Friday Night Funkin'", 'https://twitter.com/evilsk8r', '0x53E52C'],
-		['kawaisprite', 'kawaisprite', "Composer of Friday Night Funkin'", 'https://twitter.com/kawaisprite', '0x6475F3']
+		['maybeMaru', '', 'Creator of Moonchart and Flixel-Animate', 'https://x.com/maybemaru_', '0x4D5DBD']
 	];
 	
 	var curSelected:Int = -1;

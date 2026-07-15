@@ -81,7 +81,7 @@ function onLoad()
 	airi2.scrollFactor.set(1, 1);
 	airi2.antialiasing = true;
 
-    braco = new Bopper(280, 290).loadAtlas("MMJ/smile/airi_braco");
+    braco = new Bopper(270, 290).loadAtlas("MMJ/smile/airi_braco");
     braco.addAnimByIndices('danceLeft', 'haruka/airi bg 2', MathUtil.numberArray(0, 14), 24, false);
 	braco.addAnimByIndices('danceRight', 'haruka/airi bg 2', MathUtil.numberArray(15, 29), 24, false);
     braco.dance(); 
