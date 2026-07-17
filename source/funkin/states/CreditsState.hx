@@ -53,9 +53,10 @@ class CreditsState extends MusicBeatState
 		// MMF devs
 		['MMF Team'],
 		['gi', 'gi', 'Director, Animator, Artist, Composer and Coder', 'https://twitter.com/gebyongaku', '0xFF53B7D8'],
-		['ovo', '', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xF9A250'],
-		['lwverin', '', 'Background Artist', 'https://twitter.com/lwverin', '0x9B00B3'],
+		['ovo', 'ovo', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xF9A250'],
+		['lwverin', 'lwverin', 'Background Artist', 'https://twitter.com/lwverin', '0x9B00B3'],
 		['AquelaAylaLa', 'ayla', 'Writer', 'https://twitter.com/AquelaAylaLa', '0xFFFFFFFF'],
+	    ['Felix', 'felixkuyamu', 'Playtester', 'https://twitter.com/ichishihofan41', '0xFF99CCFF'],
 		// NMV devs
 		[''],
 		['NIGHTMARE FEDS'],

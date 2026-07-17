@@ -69,7 +69,7 @@
 	"no_antialiasing": false,
 	"image": "characters/airi",
 	"position": [
-		-40,
+		-10,
 		90
 	],
 	"dance_every": 2,
@@ -82,7 +82,7 @@
 	"flip_x": false,
 	"healthbar_colour": -22610,
 	"camera_position": [
-		140,
+		10,
 		10
 	],
 	"gameover_loop_sound": null,

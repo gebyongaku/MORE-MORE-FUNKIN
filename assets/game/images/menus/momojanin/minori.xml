@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="minori.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="0" y="0" width="555" height="741"/>
+	<SubTexture name="idle0001" x="0" y="0" width="555" height="741"/>
+	<SubTexture name="idle0002" x="0" y="0" width="555" height="741"/>
+	<SubTexture name="idle0003" x="555" y="0" width="554" height="740" frameX="0" frameY="-1" frameWidth="555" frameHeight="741"/>
+	<SubTexture name="idle0004" x="555" y="0" width="554" height="740" frameX="0" frameY="-1" frameWidth="555" frameHeight="741"/>
+	<SubTexture name="idle0005" x="555" y="0" width="554" height="740" frameX="0" frameY="-1" frameWidth="555" frameHeight="741"/>
+</TextureAtlas>

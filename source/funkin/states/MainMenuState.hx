@@ -29,16 +29,17 @@ class MainMenuState extends MusicBeatState
 	
 	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options'];
 
-	var posX:Array<Float> = [720, 710, 950, 710];
-	var posY:Array<Float> = [100, 300, 300, 500];
+	var posX:Array<Float> = [720, 710, 950, 700];
+	var posY:Array<Float> = [110, 288, 300, 490];
 	
 	var canInteract:Bool = false;
 	
 	var menuItems:Null<FlxTypedGroup<FlxSprite>> = null;
+	var mmjnins:Null<FlxTypedGroup<FlxSprite>> = null;
 	
 	var phone:Null<FlxSprite> = null;
 	var magenta:Null<FlxSprite> = null;
-	
+
 	override function create()
 	{
 		#if MODS_ALLOWED
@@ -92,12 +93,28 @@ class MainMenuState extends MusicBeatState
 			menuItem.ID = i;
 			menuItems.add(menuItem);
 			
-			
 			final scr:Float = optionShit.length < 6 ? 0 : (optionShit.length - 4) * 0.135;
 			
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.updateHitbox();
 		}
+
+        mmjnins = new FlxTypedGroup<FlxSprite>();
+        add(mmjnins);
+
+        var folder = FileSystem.readDirectory('assets/images/menus/momojanin/');
+
+        for (i in 0...1)
+        {
+            var momojaRandom = Path.withoutExtension(FlxG.random.getObject(folder));
+            var mmjin:FlxSprite = new FlxSprite(25, 25);
+
+            mmjin.frames = Paths.getSparrowAtlas('menus/momojanin/' + momojaRandom);
+            mmjin.animation.addByPrefix('idle', 'idle', 24);
+            mmjin.animation.play('idle');
+
+            mmjnins.add(mmjin);
+        }
 		
 		final ver = "Nightmare Vision Engine V" + Main.NMV_VERSION + '\nPsych Engine v' + Main.PSYCH_VERSION + "\nFriday Night Funkin' v" + Main.FUNKIN_VERSION;
 		
