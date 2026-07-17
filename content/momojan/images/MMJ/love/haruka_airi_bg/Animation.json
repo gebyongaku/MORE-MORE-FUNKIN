@@ -1,7 +1,7 @@
 {
 "AN": {
 "N": "fundo coisas mmj",
-"SN": "haruka",
+"SN": "harukaism",
 "TL": {
 "L": [
 {
@@ -17,6 +17,487 @@
 "IN": "",
 "ST": "G",
 "FF": 0,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 1,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 1,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 2,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 2,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 3,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 3,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 4,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 4,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 5,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 5,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 6,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 6,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 7,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 7,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 8,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 8,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 9,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 9,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 10,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 10,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 11,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 11,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 12,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 12,
+"LP": "LP",
+"TRP": {
+"x": 135.45,
+"y": 218.4
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+12.8,
+19.05,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 13,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "airi/haruka bg",
+"IN": "",
+"ST": "G",
+"FF": 13,
 "LP": "LP",
 "TRP": {
 "x": 135.45,
@@ -64,7 +545,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/bababababab",
+"SN": "objetos e resto/bababababab",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -101,7 +582,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/bababababab",
+"SN": "objetos e resto/bababababab",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -138,7 +619,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/bababababab",
+"SN": "objetos e resto/bababababab",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -180,7 +661,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/pupila",
+"SN": "objetos e resto/pupila",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -217,7 +698,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/pupila",
+"SN": "objetos e resto/pupila",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -254,7 +735,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/pupila",
+"SN": "objetos e resto/pupila",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -296,7 +777,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/olhleh",
+"SN": "objetos e resto/olhleh",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -333,7 +814,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/olhleh",
+"SN": "objetos e resto/olhleh",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -370,7 +851,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/olhleh",
+"SN": "objetos e resto/olhleh",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -412,7 +893,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/head haruka minori",
+"SN": "objetos e resto/head haruka minori",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -449,7 +930,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/head haruka minori",
+"SN": "objetos e resto/head haruka minori",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -486,7 +967,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/head haruka minori",
+"SN": "objetos e resto/head haruka minori",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -528,7 +1009,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/Símbolo 1",
+"SN": "objetos e resto/Símbolo 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -565,7 +1046,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/Símbolo 1",
+"SN": "objetos e resto/Símbolo 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -602,7 +1083,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/Símbolo 1",
+"SN": "objetos e resto/Símbolo 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -644,7 +1125,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/cabelo atras haruka minori",
+"SN": "objetos e resto/cabelo atras haruka minori",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -681,7 +1162,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/cabelo atras haruka minori",
+"SN": "objetos e resto/cabelo atras haruka minori",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -718,7 +1199,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos/cabelo atras haruka minori",
+"SN": "objetos e resto/cabelo atras haruka minori",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -755,7 +1236,7 @@
 }
 },
 {
-"SN": "objetos/bababababab",
+"SN": "objetos e resto/bababababab",
 "TL": {
 "L": [
 {
@@ -796,7 +1277,7 @@
 }
 },
 {
-"SN": "objetos/pupila",
+"SN": "objetos e resto/pupila",
 "TL": {
 "L": [
 {
@@ -837,7 +1318,7 @@
 }
 },
 {
-"SN": "objetos/olhleh",
+"SN": "objetos e resto/olhleh",
 "TL": {
 "L": [
 {
@@ -878,7 +1359,7 @@
 }
 },
 {
-"SN": "objetos/head haruka minori",
+"SN": "objetos e resto/head haruka minori",
 "TL": {
 "L": [
 {
@@ -919,7 +1400,7 @@
 }
 },
 {
-"SN": "objetos/Símbolo 1",
+"SN": "objetos e resto/Símbolo 1",
 "TL": {
 "L": [
 {
@@ -960,7 +1441,7 @@
 }
 },
 {
-"SN": "objetos/cabelo atras haruka minori",
+"SN": "objetos e resto/cabelo atras haruka minori",
 "TL": {
 "L": [
 {

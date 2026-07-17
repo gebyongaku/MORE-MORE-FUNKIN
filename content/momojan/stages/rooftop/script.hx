@@ -94,30 +94,30 @@ function onLoad()
 	shizuku2.scale.set(1.03, 1.03);
 	shizuku2.antialiasing = true;
 
-    haruka2 = new Bopper(-820, 80).loadAtlas('MMJ/love/haruka_airi_bg');
+    haruka2 = new Bopper(-813, 73).loadAtlas('MMJ/love/haruka_airi_bg');
 	haruka2.addAnimByPrefix("idle", "airi/haruka bg", 24, false);
 	haruka2.animation.play("idle");
 	haruka2.scale.set(1.05, 1.05);
 	haruka2.antialiasing = true;
 
-    minori2 = new Bopper(-670, 430).loadAtlas('MMJ/love/minori_airi_bg');
+    minori2 = new Bopper(-650, 420).loadAtlas('MMJ/love/minori_airi_bg');
 	minori2.addAnimByPrefix("idle", "airi/minori bg", 24, false);
 	minori2.animation.play("idle", true);
-	minori2.scale.set(1.15, 1.15);
+	minori2.scale.set(1.13, 1.13);
 	minori2.antialiasing = true;
 
-    shizuku3 = new Bopper(120, 75).loadAtlas("MMJ/love/shizuku_airi_bg");
+    shizuku3 = new Bopper(120, 60).loadAtlas("MMJ/love/shizuku_airi_bg");
     shizuku3.addAnimByIndices('danceLeft', 'airi/shizuku bg', MathUtil.numberArray(0, 14), 24, false);
 	shizuku3.addAnimByIndices('danceRight', 'airi/shizuku bg', MathUtil.numberArray(15, 29), 24, false);
     shizuku3.dance(); 
     shizuku3.animation.play('danceLeft');
-	shizuku3.scale.set(1.07, 1.07);
+	shizuku3.scale.set(1.08, 1.08);
 	shizuku3.antialiasing = true;
 
     mao = new Bopper(320, 272).loadAtlas('MMJ/love/shizuku_braco');
 	mao.addAnimByPrefix("idle", "airi/shizuku bg 2", 24, false);
 	mao.animation.play("idle");
-	mao.scale.set(1.07, 1.07);
+	mao.scale.set(1.09, 1.09);
 	mao.antialiasing = true;
     mao.zIndex = 1;
 
