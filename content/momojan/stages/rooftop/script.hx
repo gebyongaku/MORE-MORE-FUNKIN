@@ -106,7 +106,7 @@ function onLoad()
 	minori2.scale.set(1.13, 1.13);
 	minori2.antialiasing = true;
 
-    shizuku3 = new Bopper(120, 60).loadAtlas("MMJ/love/shizuku_airi_bg");
+    shizuku3 = new Bopper(130, 60).loadAtlas("MMJ/love/shizuku_airi_bg");
     shizuku3.addAnimByIndices('danceLeft', 'airi/shizuku bg', MathUtil.numberArray(0, 14), 24, false);
 	shizuku3.addAnimByIndices('danceRight', 'airi/shizuku bg', MathUtil.numberArray(15, 29), 24, false);
     shizuku3.dance(); 
@@ -194,6 +194,9 @@ function onEvent(name, v1, v2)
 				case 'haruka':
 					isCameraOnForcedPos = true;
 					snapCamToPos(155, 470);
+				case 'airi':
+					isCameraOnForcedPos = true;
+					snapCamToPos(120, 463);
 				case 'bf':
 					isCameraOnForcedPos = true;
 					snapCamToPos(867, 496);

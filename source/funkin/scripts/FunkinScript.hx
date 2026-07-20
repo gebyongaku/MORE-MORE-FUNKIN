@@ -335,8 +335,6 @@ class FunkinScript extends IrisEx implements IFlxDestroyable
 		#if VIDEOS_ALLOWED
 		set("FunkinVideoSprite", funkin.video.FunkinVideoSprite);
 		#end
-		set("BackgroundDancer", funkin.objects.stageobjects.BackgroundDancer);
-		set("BackgroundGirls", funkin.objects.stageobjects.BackgroundGirls);
 		set("HealthIcon", HealthIcon);
 		set("Character", funkin.objects.Character);
 		set("NoteSplash", NoteSplash);
