@@ -1,69 +1,82 @@
 {
 	"animations": [
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"flipX": false,
+			"fps": 24,
+			"name": "idle",
 			"indices": [],
-			"name": "idle"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				45,
 				28
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"flipX": false,
+			"fps": 24,
+			"name": "left",
 			"indices": [],
-			"name": "left"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-58,
 				15
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"flipX": false,
+			"fps": 24,
+			"name": "right",
 			"indices": [],
-			"name": "right"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				-34,
 				-21
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"flipX": false,
+			"fps": 24,
+			"name": "down",
 			"indices": [],
-			"name": "down"
+			"flipX": false
 		},
 		{
+			"loop": false,
+			"flipY": false,
 			"offsets": [
 				0,
 				55
 			],
-			"flipY": false,
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"flipX": false,
+			"fps": 24,
+			"name": "up",
 			"indices": [],
-			"name": "up"
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-17,
+				-3
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "ugh",
+			"loop": true,
+			"name": "ugh"
 		}
 	],
 	"no_antialiasing": false,
