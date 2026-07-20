@@ -56,7 +56,7 @@ class CreditsState extends MusicBeatState
 		['ovo', 'ovo', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xF9A250'],
 		['lwverin', 'lwverin', 'Background Artist', 'https://twitter.com/lwverin', '0x9B00B3'],
 		['AquelaAylaLa', 'ayla', 'Writer', 'https://twitter.com/AquelaAylaLa', '0xFFFFFFFF'],
-	    ['Square9', 'square9', 'Charter', 'https://twitter.com/ichishihofan41', '0xFF56F856'],
+	    ['Square9', 'square9', 'Charter', 'https://twitter.com/Square9VA', '0xFF56F856'],
 	    ['Felix', 'felixkuyamu', 'Playtester', 'https://twitter.com/ichishihofan41', '0xFF99CCFF'],
 		// NMV devs
 		[''],
