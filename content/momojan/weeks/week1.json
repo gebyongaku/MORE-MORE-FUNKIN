@@ -41,6 +41,7 @@
 	"hideFreeplay": false,
 	"weekBackground": "mmj",
 	"difficulties": [
+		"Easy",
 		"Normal"
 	],
 	"weekCharacters": [

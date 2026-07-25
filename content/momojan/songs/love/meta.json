@@ -1,12 +1,18 @@
 {
-    "songName": "Love",
-    "displayName": "Love",
-
-    "composers": ["gi"],
-    "charters": ["Square9"],
-
-    "difficulties": ["Normal"],
-
-    "freeplayColor": "#FFA7AE",
-    "freeplayIcon": "airi",
+	"charters": [
+		"Square9",
+		"gi"
+	],
+	"coders": [],
+	"freeplayIcon": "airi",
+	"difficulties": [
+		"Easy",
+		"Normal"
+	],
+	"composers": [
+		"gi"
+	],
+	"displayName": "Love",
+	"freeplayColor": "0xFFFFA7AE",
+	"artists": []
 }

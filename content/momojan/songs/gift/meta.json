@@ -1,12 +1,17 @@
 {
-    "songName": "Gift",
-    "displayName": "Gift",
-
-    "composers": ["ovo"],
-    "charters": ["gi"],
-
-    "difficulties": ["Normal"],
-
-    "freeplayColor": "#99EEDD",
-    "freeplayIcon": "shizuku",
+	"charters": [
+		"gi"
+	],
+	"coders": [],
+	"freeplayIcon": "shizuku",
+	"difficulties": [
+		"Easy",
+		"Normal"
+	],
+	"composers": [
+		"ovo"
+	],
+	"displayName": "Gift",
+	"freeplayColor": "0xFF99EEDD",
+	"artists": []
 }
