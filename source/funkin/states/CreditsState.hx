@@ -50,28 +50,33 @@ class CreditsState extends MusicBeatState
 {
 	@:unreflective
 	static final hardcodedCredits:Array<Array<String>> = [
-		// MMF devs
+		// MMF team lololo
 		['MMF Team'],
-		['gi', 'gi', 'Director, Animator, Artist, Composer and Coder', 'https://twitter.com/gebyongaku', '0xFF53B7D8'],
-		['ovo', 'ovo', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xF9A250'],
-		['lwverin', 'lwverin', 'Background Artist', 'https://twitter.com/lwverin', '0x9B00B3'],
+		['gi', 'gi', 'Director, Animator, Artist, Writer, Composer, Charter and Coder', 'https://twitter.com/gebyongaku', '0x53B7D8'],
+		['ovo', 'ovo', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xFFF9A250'],
+		['lwverin', 'lwverin', 'Background and Menu Artist', 'https://twitter.com/lwverin', '0xFF780000'],
 		['AquelaAylaLa', 'ayla', 'Writer', 'https://twitter.com/AquelaAylaLa', '0xFFFFFFFF'],
+	    ['Felix', 'felixkuyamu', 'Ideas and Playtester', 'https://twitter.com/ichishihofan41', '0xFF99CCFF'],
+		// special tnaks
+		[''],
+		['Special Thanks'],
 	    ['Square9', 'square9', 'Charter', 'https://twitter.com/Square9VA', '0xFF56F856'],
-	    ['Felix', 'felixkuyamu', 'Playtester', 'https://twitter.com/ichishihofan41', '0xFF99CCFF'],
+        ['AzuulStar', 'azuulstar', 'Dialogue Code', 'https://twitter.com/AzuulStar', '0xFF0BC1D7'],
+        ['bennation', 'bennation', 'Additional Codes', 'https://twitter.com/eobennation', '0xFF233DA9'],
 		// NMV devs
 		[''],
 		['NIGHTMARE FEDS'],
-		['DuskieWhy', 'duskie', 'Programmer of Nightmare Vision', 'https://twitter.com/DuskieWhy', '0xA8324A'],
-		['data5', 'data', 'Programmer of Nightmare Vision', 'https://x.com/_data5', '0xF9A250'],
-		['NebulaZorua', 'neb', 'Modchart backend\n(Created the initial fork NMV was derived from)', 'https://twitter.com/Nebula_Zorua', '0x9B00B3'],
-		['JoggingScout', 'joggingscout', 'Artist (SUPER KUTTY!!!!)', 'https://twitter.com/JoggingScout', '0x3366CC'],
-		['Iseta', 'iseta', 'Artist (a little less kutty...)', 'https://twitter.com/Isetaaaaa', '0x6ede0b'],
+		['DuskieWhy', 'duskie', 'Programmer of Nightmare Vision', 'https://twitter.com/DuskieWhy', '0xFFA8324A'],
+		['data5', 'data', 'Programmer of Nightmare Vision', 'https://x.com/_data5', '0xFFF9A250'],
+		['NebulaZorua', 'neb', 'Modchart backend\n(Created the initial fork NMV was derived from)', 'https://twitter.com/Nebula_Zorua', '0xFF9B00B3'],
+		['JoggingScout', 'joggingscout', 'Artist (SUPER KUTTY!!!!)', 'https://twitter.com/JoggingScout', '0xFF3366CC'],
+		['Iseta', 'iseta', 'Artist (a little less kutty...)', 'https://twitter.com/Isetaaaaa', '0xFF6ede0b'],
 		// Additional contributions
 		[''],
 		['Engine Contributors'],
-		["crowplexus", "crowplexus", "Creator of HScript-Iris and various PR's", "https://twitter.com/crowplexus", "0xCFCFCF"],
-		['MAJigsaw77', 'majigsaw', 'Creator of Hxvlc', 'https://x.com/MAJigsaw77', '0x6E6E6E'],
-		['maybeMaru', '', 'Creator of Moonchart and Flixel-Animate', 'https://x.com/maybemaru_', '0x4D5DBD']
+		["crowplexus", "crowplexus", "Creator of HScript-Iris and various PR's", "https://twitter.com/crowplexus", "0xFFCFCFCF"],
+		['MAJigsaw77', 'majigsaw', 'Creator of Hxvlc', 'https://x.com/MAJigsaw77', '0xFF6E6E6E'],
+		['maybeMaru', '', 'Creator of Moonchart and Flixel-Animate', 'https://x.com/maybemaru_', '0xFF4D5DBD']
 	];
 	
 	var curSelected:Int = -1;

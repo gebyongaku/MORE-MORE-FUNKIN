@@ -36,12 +36,25 @@ class Splash extends FlxState
 				video.updateHitbox();
 				video.screenCenter();
 			});
-			video.onEnd(finish);
-			if (video.load(Paths.video('intro'))) video.delayAndStart();
+			video.onEnd(() -> {
+				if (video != null)
+				{
+					video.destroy();
+					video = null;
+				}
+				logoFunc();
+			});
+			if (video.load(Paths.video('intro')))
+			{
+				video.delayAndStart();
+			}
 			else
+			{
+				logoFunc();
+			}
+			#else
+				logoFunc();
 			#end
-			
-			logoFunc();
 		});
 	}
 	
@@ -128,8 +141,12 @@ class Splash extends FlxState
 			spriteEvents.destroy();
 		}
 		#if VIDEOS_ALLOWED
-		video.stop();
-		video.destroy();
+		if (video != null)
+		{
+			video.stop();
+			video.destroy();
+			video = null;
+		}
 		#end
 		complete();
 	}

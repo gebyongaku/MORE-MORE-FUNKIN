@@ -29,9 +29,9 @@ function onLoad()
     ceu.scrollFactor.set(0.1, 0.1);
 	add(ceu);
 
-    clouds = new FlxSprite(-1142, -1149).loadGraphic(Paths.image("MMJ/clouds"));
-    clouds.scale.set(1, 1);
-    clouds.scrollFactor.set(0.8, 1.7);
+    clouds = new FlxSprite(-1142, -2290).loadGraphic(Paths.image("MMJ/clouds"));
+    clouds.scale.set(1, 1.13);
+    clouds.scrollFactor.set(0.8, 1.4);
 	add(clouds);
 
     predio = new FlxSprite(-1143, -1155).loadGraphic(Paths.image("MMJ/predio_atras"));
@@ -197,6 +197,9 @@ function onEvent(name, v1, v2)
 				case 'airi':
 					isCameraOnForcedPos = true;
 					snapCamToPos(120, 463);
+				case 'shizuku':
+					isCameraOnForcedPos = true;
+					snapCamToPos(241, 470);
 				case 'bf':
 					isCameraOnForcedPos = true;
 					snapCamToPos(867, 496);

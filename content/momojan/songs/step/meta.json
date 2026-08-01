@@ -2,7 +2,6 @@
 	"charters": [
 		"gi"
 	],
-	"coders": [],
 	"freeplayIcon": "minori",
 	"difficulties": [
 		"Easy",
@@ -12,6 +11,5 @@
 		"gi"
 	],
 	"displayName": "Step",
-	"freeplayColor": "0xFFD29583",
-	"artists": []
+	"freeplayColor": "0xFFD29583"
 }

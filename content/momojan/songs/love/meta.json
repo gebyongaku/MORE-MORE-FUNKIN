@@ -3,7 +3,6 @@
 		"Square9",
 		"gi"
 	],
-	"coders": [],
 	"freeplayIcon": "airi",
 	"difficulties": [
 		"Easy",
@@ -13,6 +12,5 @@
 		"gi"
 	],
 	"displayName": "Love",
-	"freeplayColor": "0xFFFFA7AE",
-	"artists": []
+	"freeplayColor": "0xFFFFA7AE"
 }

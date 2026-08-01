@@ -2,7 +2,6 @@
 	"charters": [
 		"gi"
 	],
-	"coders": [],
 	"freeplayIcon": "shizuku",
 	"difficulties": [
 		"Easy",
@@ -12,6 +11,5 @@
 		"ovo"
 	],
 	"displayName": "Gift",
-	"freeplayColor": "0xFF99EEDD",
-	"artists": []
+	"freeplayColor": "0xFF99EEDD"
 }
