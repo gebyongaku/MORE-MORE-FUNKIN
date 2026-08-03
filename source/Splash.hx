@@ -24,6 +24,9 @@ class Splash extends FlxState
 	
 	override function create()
 	{
+
+        super.create();		
+
 		_cachedAutoPause = FlxG.autoPause;
 		FlxG.autoPause = false;
 		
@@ -60,26 +63,22 @@ class Splash extends FlxState
 	
 	override function update(elapsed:Float)
 	{
-		if (logo != null)
-		{
-			logo.updateHitbox();
-			logo.screenCenter();
-			
-			if (FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER)
-			{
-				finish();
-			}
-		}
-		#if VIDEOS_ALLOWED
-		if (video != null)
-		{
-			if (FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER)
-			{
-				finish();
-			}
-		}
-		#end
-		super.update(elapsed);
+
+        super.update(elapsed);
+
+        #if VIDEOS_ALLOWED
+        if (video != null)
+    {
+        if (FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER)
+        {
+            video.stop();
+            video.destroy();
+            video = null;
+
+        logoFunc();
+        }
+    }
+    #end
 	}
 	
 	function logoFunc()
@@ -135,22 +134,14 @@ class Splash extends FlxState
 	
 	function finish()
 	{
-		if (spriteEvents != null)
-		{
-			spriteEvents.cancel();
-			spriteEvents.destroy();
-		}
-		#if VIDEOS_ALLOWED
-		if (video != null)
-		{
-			video.stop();
-			video.destroy();
-			video = null;
-		}
-		#end
-		complete();
+	if (spriteEvents != null)
+	{
+		spriteEvents.cancel();
+		spriteEvents.destroy();
 	}
-	
+	complete();
+	}
+
 	function complete()
 	{
 		FlxG.sound.muted = FlxG.save.data.mute;

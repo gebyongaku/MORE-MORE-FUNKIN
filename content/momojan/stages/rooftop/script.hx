@@ -7,18 +7,6 @@ var clouds:FlxSprite;
 var predio:FlxSprite;
 var front:FlxSprite;
 
-var haruka1:FlxSprite;
-var airi1:FlxSprite;
-var shizuku1:FlxSprite;
-
-var minori1:FlxSprite;
-var airi2:FlxSprite;
-var braco:FlxSprite;
-var shizuku2:FlxSprite;
-
-var minori2:FlxSprite;
-var haruka2:FlxSprite;
-
 var songName:String = Paths.sanitize(PlayState.SONG.song);
 
 function onLoad() 
@@ -121,6 +109,35 @@ function onLoad()
 	mao.antialiasing = true;
     mao.zIndex = 1;
 
+    minori3 = new Bopper(-840, 90).loadAtlas('MMJ/gift/minori_shizuku_bg');
+	minori3.addAnimByPrefix("idle", "shizuku/minori bg", 24, false);
+	minori3.animation.play("idle");
+	minori3.scale.set(1, 1);
+	minori3.antialiasing = true;
+
+    haruka3 = new Bopper(160, 95).loadAtlas("MMJ/gift/haruka_shizuku_bg");
+    haruka3.addAnimByIndices('danceLeft', 'shizuku/haruka bg 1', MathUtil.numberArray(0, 14), 24, false);
+	haruka3.addAnimByIndices('danceRight', 'shizuku/haruka bg 1', MathUtil.numberArray(15, 29), 24, false);
+    haruka3.dance(); 
+    haruka3.animation.play('danceLeft');
+	haruka3.scale.set(1.05, 1.05);
+	haruka3.antialiasing = true;
+    haruka3.zIndex = 1;
+
+    corpo = new Bopper(215, 280).loadAtlas("MMJ/gift/haruka_corpo");
+    corpo.addAnimByIndices('danceLeft', 'shizuku/haruka bg', MathUtil.numberArray(0, 14), 24, false);
+	corpo.addAnimByIndices('danceRight', 'shizuku/haruka bg', MathUtil.numberArray(15, 29), 24, false);
+    corpo.dance(); 
+    corpo.animation.play('danceLeft');
+	corpo.scale.set(1.05, 1.05);
+	corpo.antialiasing = true;
+
+    airi3 = new Bopper(590, 90).loadAtlas('MMJ/gift/airi_shizuku_bg');
+	airi3.addAnimByPrefix("idle", "shizuku/airi bg", 24, false);
+	airi3.animation.play("idle");
+	airi3.scale.set(1, 1);
+	airi3.antialiasing = true;
+
     if (songName == "step")
     {
         add(haruka1);
@@ -142,6 +159,14 @@ function onLoad()
         add(minori2);
         add(shizuku3);
         add(mao);
+    }
+
+    if (songName == "gift")
+    {
+        add(minori3);
+        add(haruka3);
+        add(corpo);
+        add(airi3);
     }
 
 	public function dance():Void
@@ -167,6 +192,10 @@ function onCountdownTick()
     haruka2.animation.play("idle");
     shizuku3.dance();
     mao.animation.play("idle");
+    minori3.animation.play("idle");
+    haruka3.dance();
+    corpo.dance();
+    airi3.animation.play("idle");
 }
 
 function onBeatHit()
@@ -182,6 +211,10 @@ function onBeatHit()
     haruka2.animation.play("idle");
     shizuku3.dance();
     mao.animation.play("idle");
+    minori3.animation.play("idle");
+    haruka3.dance();
+    corpo.dance();
+    airi3.animation.play("idle");
 }
 
 function onEvent(name, v1, v2)
@@ -199,7 +232,7 @@ function onEvent(name, v1, v2)
 					snapCamToPos(120, 463);
 				case 'shizuku':
 					isCameraOnForcedPos = true;
-					snapCamToPos(241, 470);
+					snapCamToPos(132, 440);
 				case 'bf':
 					isCameraOnForcedPos = true;
 					snapCamToPos(867, 496);

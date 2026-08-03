@@ -70,12 +70,12 @@
 				-11,
 				-2
 			],
-			"indices": [],
-			"fps": 24,
-			"flipX": false,
 			"flipY": false,
-			"anim": "funny",
 			"loop": true,
+			"fps": 24,
+			"anim": "funny",
+			"flipX": false,
+			"indices": [],
 			"name": "funny"
 		}
 	],
@@ -95,8 +95,8 @@
 	"flip_x": false,
 	"healthbar_colour": -6689059,
 	"camera_position": [
-		160,
-		40
+		50,
+		10
 	],
 	"gameover_loop_sound": null,
 	"sing_duration": 6,
