@@ -11,7 +11,7 @@
 			"anim": "singLEFT",
 			"flipX": false,
 			"indices": [],
-			"name": "left"
+			"name": "haruka/left"
 		},
 		{
 			"offsets": [
@@ -24,7 +24,7 @@
 			"anim": "singRIGHT",
 			"flipX": false,
 			"indices": [],
-			"name": "right"
+			"name": "haruka/right"
 		},
 		{
 			"offsets": [
@@ -37,7 +37,7 @@
 			"anim": "singDOWN",
 			"flipX": false,
 			"indices": [],
-			"name": "down"
+			"name": "haruka/down"
 		},
 		{
 			"offsets": [
@@ -50,7 +50,7 @@
 			"anim": "singUP",
 			"flipX": false,
 			"indices": [],
-			"name": "up"
+			"name": "haruka/up"
 		},
 		{
 			"offsets": [
@@ -79,7 +79,7 @@
 				13,
 				14
 			],
-			"name": "idle"
+			"name": "haruka/idle"
 		},
 		{
 			"offsets": [
@@ -108,7 +108,7 @@
 				28,
 				29
 			],
-			"name": "idle"
+			"name": "haruka/idle"
 		}
 	],
 	"no_antialiasing": false,

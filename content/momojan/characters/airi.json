@@ -9,7 +9,7 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "idle",
+			"name": "airi/idle",
 			"indices": [],
 			"flipX": false
 		},
@@ -22,7 +22,7 @@
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "left",
+			"name": "airi/left",
 			"indices": [],
 			"flipX": false
 		},
@@ -35,7 +35,7 @@
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "right",
+			"name": "airi/right",
 			"indices": [],
 			"flipX": false
 		},
@@ -48,7 +48,7 @@
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "down",
+			"name": "airi/down",
 			"indices": [],
 			"flipX": false
 		},
@@ -61,7 +61,7 @@
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "up",
+			"name": "airi/up",
 			"indices": [],
 			"flipX": false
 		},
@@ -76,7 +76,7 @@
 			"flipY": false,
 			"anim": "ugh",
 			"loop": true,
-			"name": "ugh"
+			"name": "airi/ugh"
 		}
 	],
 	"no_antialiasing": false,

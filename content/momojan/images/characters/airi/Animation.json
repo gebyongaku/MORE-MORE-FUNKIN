@@ -1,6 +1,6 @@
 {
 "AN": {
-"N": "airi momoi fnf",
+"N": "MMJ All Poses",
 "SN": "airi",
 "TL": {
 "L": [
@@ -13,7 +13,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -50,7 +50,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -87,7 +87,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 2,
@@ -124,7 +124,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 3,
@@ -161,7 +161,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 4,
@@ -198,7 +198,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 5,
@@ -235,7 +235,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 6,
@@ -272,7 +272,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 7,
@@ -309,7 +309,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 8,
@@ -346,7 +346,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 9,
@@ -383,7 +383,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 10,
@@ -420,7 +420,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 11,
@@ -457,7 +457,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 12,
@@ -494,7 +494,7 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/idle",
 "IN": "",
 "ST": "G",
 "FF": 13,
@@ -531,14 +531,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/left",
 "IN": "",
 "ST": "G",
 "FF": 0,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -568,14 +568,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/left",
 "IN": "",
 "ST": "G",
 "FF": 1,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -605,14 +605,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/left",
 "IN": "",
 "ST": "G",
 "FF": 2,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -642,14 +642,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/left",
 "IN": "",
 "ST": "G",
 "FF": 3,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -679,14 +679,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/left",
 "IN": "",
 "ST": "G",
 "FF": 4,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -716,14 +716,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/down",
 "IN": "",
 "ST": "G",
-"FF": 5,
+"FF": 0,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -753,14 +753,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/down",
 "IN": "",
 "ST": "G",
-"FF": 6,
+"FF": 1,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -790,14 +790,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/down",
 "IN": "",
 "ST": "G",
-"FF": 7,
+"FF": 2,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -827,14 +827,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/down",
 "IN": "",
 "ST": "G",
-"FF": 8,
+"FF": 3,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -864,14 +864,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/down",
 "IN": "",
 "ST": "G",
-"FF": 9,
+"FF": 4,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -901,14 +901,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/up",
 "IN": "",
 "ST": "G",
-"FF": 10,
+"FF": 0,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -938,14 +938,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/up",
 "IN": "",
 "ST": "G",
-"FF": 11,
+"FF": 1,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -975,14 +975,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/up",
 "IN": "",
 "ST": "G",
-"FF": 12,
+"FF": 2,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -1012,14 +1012,14 @@
 "E": [
 {
 "SI": {
-"SN": "idle",
+"SN": "airi/up",
 "IN": "",
 "ST": "G",
-"FF": 13,
+"FF": 3,
 "LP": "LP",
 "TRP": {
-"x": 97.25,
-"y": 96.7
+"x": 185.65,
+"y": 308.35
 },
 "M3D": [
 1.0,
@@ -1049,10 +1049,10 @@
 "E": [
 {
 "SI": {
-"SN": "left",
+"SN": "airi/up",
 "IN": "",
 "ST": "G",
-"FF": 0,
+"FF": 4,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1086,10 +1086,10 @@
 "E": [
 {
 "SI": {
-"SN": "left",
+"SN": "airi/right",
 "IN": "",
 "ST": "G",
-"FF": 1,
+"FF": 0,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1123,10 +1123,10 @@
 "E": [
 {
 "SI": {
-"SN": "left",
+"SN": "airi/right",
 "IN": "",
 "ST": "G",
-"FF": 2,
+"FF": 1,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1160,10 +1160,10 @@
 "E": [
 {
 "SI": {
-"SN": "left",
+"SN": "airi/right",
 "IN": "",
 "ST": "G",
-"FF": 3,
+"FF": 2,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1197,10 +1197,10 @@
 "E": [
 {
 "SI": {
-"SN": "left",
+"SN": "airi/right",
 "IN": "",
 "ST": "G",
-"FF": 4,
+"FF": 3,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1234,10 +1234,10 @@
 "E": [
 {
 "SI": {
-"SN": "down",
+"SN": "airi/right",
 "IN": "",
 "ST": "G",
-"FF": 0,
+"FF": 4,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1271,10 +1271,10 @@
 "E": [
 {
 "SI": {
-"SN": "down",
+"SN": "airi/ugh",
 "IN": "",
 "ST": "G",
-"FF": 1,
+"FF": 0,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1308,10 +1308,10 @@
 "E": [
 {
 "SI": {
-"SN": "down",
+"SN": "airi/ugh",
 "IN": "",
 "ST": "G",
-"FF": 2,
+"FF": 1,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1345,10 +1345,10 @@
 "E": [
 {
 "SI": {
-"SN": "down",
+"SN": "airi/ugh",
 "IN": "",
 "ST": "G",
-"FF": 3,
+"FF": 2,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1382,10 +1382,10 @@
 "E": [
 {
 "SI": {
-"SN": "down",
+"SN": "airi/ugh",
 "IN": "",
 "ST": "G",
-"FF": 4,
+"FF": 3,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1419,10 +1419,10 @@
 "E": [
 {
 "SI": {
-"SN": "up",
+"SN": "airi/ugh",
 "IN": "",
 "ST": "G",
-"FF": 0,
+"FF": 4,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1456,491 +1456,10 @@
 "E": [
 {
 "SI": {
-"SN": "up",
+"SN": "airi/ugh",
 "IN": "",
 "ST": "G",
-"FF": 1,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 40,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "up",
-"IN": "",
-"ST": "G",
-"FF": 2,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 41,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "up",
-"IN": "",
-"ST": "G",
-"FF": 3,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 42,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "up",
-"IN": "",
-"ST": "G",
-"FF": 4,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 43,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "right",
-"IN": "",
-"ST": "G",
-"FF": 0,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 44,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "right",
-"IN": "",
-"ST": "G",
-"FF": 1,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 45,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "right",
-"IN": "",
-"ST": "G",
-"FF": 2,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 46,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "right",
-"IN": "",
-"ST": "G",
-"FF": 3,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 47,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "right",
-"IN": "",
-"ST": "G",
-"FF": 4,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 48,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "ugh",
-"IN": "",
-"ST": "G",
-"FF": 0,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 49,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "ugh",
-"IN": "",
-"ST": "G",
-"FF": 1,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 50,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "ugh",
-"IN": "",
-"ST": "G",
-"FF": 2,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 51,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "ugh",
-"IN": "",
-"ST": "G",
-"FF": 3,
-"LP": "LP",
-"TRP": {
-"x": 185.65,
-"y": 308.35
-},
-"M3D": [
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0,
-0.0,
-0.0,
-0.0,
-0.0,
-1.0
-]
-}
-}
-]
-},
-{
-"I": 52,
-"DU": 1,
-"E": [
-{
-"SI": {
-"SN": "ugh",
-"IN": "",
-"ST": "G",
-"FF": 0,
+"FF": 5,
 "LP": "LP",
 "TRP": {
 "x": 185.65,
@@ -1976,7 +1495,7 @@
 "SD": {
 "S": [
 {
-"SN": "idle",
+"SN": "airi/idle",
 "TL": {
 "L": [
 {
@@ -1988,7 +1507,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face idle",
+"SN": "objetos/airi objetos/face idle",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2025,7 +1544,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face idle",
+"SN": "objetos/airi objetos/face idle",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2062,7 +1581,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face idle",
+"SN": "objetos/airi objetos/face idle",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2099,7 +1618,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face idle",
+"SN": "objetos/airi objetos/face idle",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2136,7 +1655,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face idle",
+"SN": "objetos/airi objetos/face idle",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2178,7 +1697,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2215,7 +1734,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2252,7 +1771,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2289,7 +1808,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2326,7 +1845,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2368,7 +1887,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2405,7 +1924,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2442,7 +1961,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2479,7 +1998,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2516,7 +2035,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2558,7 +2077,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2595,7 +2114,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2632,7 +2151,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2669,7 +2188,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2706,7 +2225,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2748,7 +2267,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2779,7 +2298,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2816,7 +2335,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2847,7 +2366,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2884,7 +2403,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2915,7 +2434,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2952,7 +2471,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -2983,7 +2502,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3020,7 +2539,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3051,7 +2570,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3093,7 +2612,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3130,7 +2649,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3167,7 +2686,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3204,7 +2723,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3241,7 +2760,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3283,7 +2802,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco mic",
+"SN": "objetos/airi objetos/braco mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3320,7 +2839,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco mic",
+"SN": "objetos/airi objetos/braco mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3357,7 +2876,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco mic",
+"SN": "objetos/airi objetos/braco mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3394,7 +2913,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco mic",
+"SN": "objetos/airi objetos/braco mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3431,7 +2950,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco mic",
+"SN": "objetos/airi objetos/braco mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3473,7 +2992,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3510,7 +3029,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3520,7 +3039,7 @@
 "y": 123.7
 },
 "M3D": [
-1.0190582275390626,
+1.01904296875,
 0.0,
 0.0,
 0.0,
@@ -3547,7 +3066,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3584,7 +3103,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3626,7 +3145,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3663,7 +3182,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3673,7 +3192,7 @@
 "y": 87.9
 },
 "M3D": [
-1.0190582275390626,
+1.01904296875,
 0.0,
 0.0,
 0.0,
@@ -3700,7 +3219,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3737,7 +3256,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3779,7 +3298,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/outro braco mas normal",
+"SN": "objetos/airi objetos/outro braco mas normal",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3816,7 +3335,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/outro braco mas normal",
+"SN": "objetos/airi objetos/outro braco mas normal",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3853,7 +3372,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/outro braco mas normal",
+"SN": "objetos/airi objetos/outro braco mas normal",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3890,7 +3409,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/outro braco mas normal",
+"SN": "objetos/airi objetos/outro braco mas normal",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3927,7 +3446,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/outro braco mas normal",
+"SN": "objetos/airi objetos/outro braco mas normal",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3969,7 +3488,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -3984,7 +3503,7 @@
 0.0,
 0.0,
 0.0347747802734375,
-1.0250396728515626,
+1.0250244140625,
 0.0,
 0.0,
 0.0,
@@ -4006,7 +3525,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4043,7 +3562,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4053,7 +3572,7 @@
 "y": -35.75
 },
 "M3D": [
-1.0671539306640626,
+1.067138671875,
 0.004638671875,
 0.0,
 0.0,
@@ -4080,7 +3599,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4117,7 +3636,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4127,7 +3646,7 @@
 "y": -36.5
 },
 "M3D": [
-1.0476226806640626,
+1.047607421875,
 0.0,
 0.0,
 0.0,
@@ -4154,7 +3673,7 @@
 }
 },
 {
-"SN": "objetos e resto/face idle",
+"SN": "objetos/airi objetos/face idle",
 "TL": {
 "L": [
 {
@@ -4168,19 +3687,19 @@
 "ASI": {
 "N": "0000",
 "M3D": [
-0.4841461181640625,
+0.968292236328125,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4841461181640625,
+0.968292236328125,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--0.45,
+-0.95,
 17.4,
 0.0,
 1.0
@@ -4195,7 +3714,7 @@
 }
 },
 {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "TL": {
 "L": [
 {
@@ -4209,20 +3728,20 @@
 "ASI": {
 "N": "0001",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--8.45,
--46.45,
+-7.95,
+-45.95,
 0.0,
 1.0
 ]
@@ -4236,7 +3755,7 @@
 }
 },
 {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "TL": {
 "L": [
 {
@@ -4250,12 +3769,12 @@
 "ASI": {
 "N": "0002",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
@@ -4263,7 +3782,7 @@
 1.0,
 0.0,
 0.95,
-14.45,
+14.95,
 0.0,
 1.0
 ]
@@ -4277,7 +3796,7 @@
 }
 },
 {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "TL": {
 "L": [
 {
@@ -4291,12 +3810,12 @@
 "ASI": {
 "N": "0003",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
@@ -4318,7 +3837,7 @@
 }
 },
 {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "TL": {
 "L": [
 {
@@ -4332,12 +3851,12 @@
 "ASI": {
 "N": "0004",
 "M3D": [
-0.47137451171875,
+0.9427490234375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.47137451171875,
+0.9427490234375,
 0.0,
 0.0,
 0.0,
@@ -4359,7 +3878,7 @@
 }
 },
 {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "TL": {
 "L": [
 {
@@ -4373,12 +3892,12 @@
 "ASI": {
 "N": "0005",
 "M3D": [
-0.4764862060546875,
+0.9529876708984375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4764862060546875,
+0.9529876708984375,
 0.0,
 0.0,
 0.0,
@@ -4400,7 +3919,7 @@
 }
 },
 {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "TL": {
 "L": [
 {
@@ -4414,20 +3933,20 @@
 "ASI": {
 "N": "0006",
 "M3D": [
-0.4608154296875,
+0.921630859375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4608154296875,
+0.921630859375,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--2.3,
-6.9,
+-2.75,
+7.35,
 0.0,
 1.0
 ]
@@ -4441,7 +3960,7 @@
 }
 },
 {
-"SN": "objetos e resto/braco mic",
+"SN": "objetos/airi objetos/braco mic",
 "TL": {
 "L": [
 {
@@ -4455,12 +3974,12 @@
 "ASI": {
 "N": "0007",
 "M3D": [
-0.4978179931640625,
+0.9956512451171875,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4978179931640625,
+0.9956512451171875,
 0.0,
 0.0,
 0.0,
@@ -4482,7 +4001,7 @@
 }
 },
 {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "TL": {
 "L": [
 {
@@ -4496,19 +4015,19 @@
 "ASI": {
 "N": "0008",
 "M3D": [
-0.448577880859375,
+0.8971710205078125,
 0.0,
 0.0,
 0.0,
 0.0,
-0.448577880859375,
+0.8971710205078125,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--3.1,
+-3.55,
 0.85,
 0.0,
 1.0
@@ -4523,7 +4042,7 @@
 }
 },
 {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "TL": {
 "L": [
 {
@@ -4537,12 +4056,12 @@
 "ASI": {
 "N": "0009",
 "M3D": [
-0.4498748779296875,
+0.899749755859375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4498748779296875,
+0.899749755859375,
 0.0,
 0.0,
 0.0,
@@ -4564,7 +4083,7 @@
 }
 },
 {
-"SN": "objetos e resto/outro braco mas normal",
+"SN": "objetos/airi objetos/outro braco mas normal",
 "TL": {
 "L": [
 {
@@ -4578,12 +4097,12 @@
 "ASI": {
 "N": "0010",
 "M3D": [
-0.496795654296875,
+0.9936065673828125,
 0.0,
 0.0,
 0.0,
 0.0,
-0.496795654296875,
+0.9936065673828125,
 0.0,
 0.0,
 0.0,
@@ -4605,7 +4124,7 @@
 }
 },
 {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "TL": {
 "L": [
 {
@@ -4619,12 +4138,12 @@
 "ASI": {
 "N": "0011",
 "M3D": [
-0.4353485107421875,
+0.8707122802734375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4353485107421875,
+0.8707122802734375,
 0.0,
 0.0,
 0.0,
@@ -4646,7 +4165,7 @@
 }
 },
 {
-"SN": "left",
+"SN": "airi/left",
 "TL": {
 "L": [
 {
@@ -4658,7 +4177,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -4668,7 +4187,7 @@
 "y": 111.5
 },
 "M3D": [
-1.0211334228515626,
+1.0211181640625,
 0.06243896484375,
 0.0,
 0.0,
@@ -4695,7 +4214,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -4705,7 +4224,7 @@
 "y": 111.5
 },
 "M3D": [
-1.0211334228515626,
+1.0211181640625,
 0.06243896484375,
 0.0,
 0.0,
@@ -4732,7 +4251,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4769,7 +4288,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4806,7 +4325,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4843,7 +4362,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4880,7 +4399,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4917,7 +4436,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4954,7 +4473,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -4991,7 +4510,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5028,7 +4547,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5065,7 +4584,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5102,7 +4621,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5139,7 +4658,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5176,7 +4695,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5218,7 +4737,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left arm",
+"SN": "objetos/airi objetos/left arm",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5255,7 +4774,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left arm",
+"SN": "objetos/airi objetos/left arm",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5297,7 +4816,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5334,7 +4853,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5371,7 +4890,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5408,7 +4927,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5445,7 +4964,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5482,7 +5001,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5519,7 +5038,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5556,7 +5075,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5593,7 +5112,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5630,7 +5149,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5667,7 +5186,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5704,7 +5223,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5741,7 +5260,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5778,7 +5297,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5815,7 +5334,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -5857,7 +5376,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5894,7 +5413,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5936,7 +5455,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -5973,7 +5492,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6015,7 +5534,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6052,7 +5571,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6094,7 +5613,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6131,7 +5650,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6173,7 +5692,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6210,7 +5729,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6252,7 +5771,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6283,7 +5802,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6320,7 +5839,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6351,7 +5870,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6393,7 +5912,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6403,7 +5922,7 @@
 "y": -36.5
 },
 "M3D": [
-1.0476226806640626,
+1.047607421875,
 0.0,
 0.0,
 0.0,
@@ -6430,7 +5949,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6440,7 +5959,7 @@
 "y": -36.5
 },
 "M3D": [
-1.0476226806640626,
+1.047607421875,
 0.0,
 0.0,
 0.0,
@@ -6467,7 +5986,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6477,7 +5996,7 @@
 "y": -36.5
 },
 "M3D": [
-1.0476226806640626,
+1.047607421875,
 0.0,
 0.0,
 0.0,
@@ -6504,7 +6023,7 @@
 }
 },
 {
-"SN": "objetos e resto/heyu hand",
+"SN": "objetos/airi objetos/heyu hand",
 "TL": {
 "L": [
 {
@@ -6518,12 +6037,12 @@
 "ASI": {
 "N": "0013",
 "M3D": [
-0.4887237548828125,
+0.97747802734375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4887237548828125,
+0.97747802734375,
 0.0,
 0.0,
 0.0,
@@ -6531,7 +6050,7 @@
 1.0,
 0.0,
 -32.25,
-46.4,
+46.9,
 0.0,
 1.0
 ]
@@ -6547,19 +6066,19 @@
 "ASI": {
 "N": "0014",
 "M3D": [
-0.4887237548828125,
+0.97747802734375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4887237548828125,
+0.97747802734375,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--37.6,
+-38.1,
 47.85,
 0.0,
 1.0
@@ -6574,7 +6093,7 @@
 }
 },
 {
-"SN": "objetos e resto/left arm",
+"SN": "objetos/airi objetos/left arm",
 "TL": {
 "L": [
 {
@@ -6588,12 +6107,12 @@
 "ASI": {
 "N": "0012",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -6601,7 +6120,7 @@
 1.0,
 0.0,
 13.0,
-10.5,
+11.0,
 0.0,
 1.0
 ]
@@ -6615,7 +6134,7 @@
 }
 },
 {
-"SN": "objetos e resto/face left",
+"SN": "objetos/airi objetos/face left",
 "TL": {
 "L": [
 {
@@ -6629,12 +6148,12 @@
 "ASI": {
 "N": "0015",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
@@ -6642,7 +6161,7 @@
 1.0,
 0.0,
 120.95,
-74.45,
+73.95,
 0.0,
 1.0
 ]
@@ -6658,19 +6177,19 @@
 "ASI": {
 "N": "0016",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-119.45,
+118.95,
 73.95,
 0.0,
 1.0
@@ -6692,19 +6211,19 @@
 "ASI": {
 "N": "0017",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-2.45,
+2.95,
 14.95,
 0.0,
 1.0
@@ -6721,12 +6240,12 @@
 "ASI": {
 "N": "0018",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
@@ -6748,7 +6267,7 @@
 }
 },
 {
-"SN": "down",
+"SN": "airi/down",
 "TL": {
 "L": [
 {
@@ -6760,7 +6279,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6771,7 +6290,7 @@
 },
 "M3D": [
 -0.307342529296875,
-1.0405426025390626,
+1.04052734375,
 0.0,
 0.0,
 -0.9217529296875,
@@ -6797,7 +6316,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6839,7 +6358,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6876,7 +6395,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -6913,7 +6432,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -6950,7 +6469,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -6987,7 +6506,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7024,7 +6543,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7061,7 +6580,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7098,7 +6617,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7135,7 +6654,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7172,7 +6691,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7209,7 +6728,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7246,7 +6765,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7283,7 +6802,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7320,7 +6839,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7357,7 +6876,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -7399,7 +6918,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/downb raco",
+"SN": "objetos/airi objetos/downb raco",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7436,7 +6955,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/downb raco",
+"SN": "objetos/airi objetos/downb raco",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7478,7 +6997,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7515,7 +7034,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7557,7 +7076,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7594,7 +7113,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7636,7 +7155,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7673,7 +7192,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7715,7 +7234,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7746,7 +7265,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7783,7 +7302,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7814,7 +7333,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7856,7 +7375,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7893,7 +7412,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7935,7 +7454,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -7972,7 +7491,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8014,7 +7533,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8051,7 +7570,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8088,7 +7607,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8125,7 +7644,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8162,7 +7681,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8199,7 +7718,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8236,7 +7755,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8273,7 +7792,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8310,7 +7829,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8347,7 +7866,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8384,7 +7903,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8421,7 +7940,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8458,7 +7977,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8495,7 +8014,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8532,7 +8051,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -8574,7 +8093,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8611,7 +8130,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8648,7 +8167,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8685,7 +8204,7 @@
 }
 },
 {
-"SN": "objetos e resto/face doown",
+"SN": "objetos/airi objetos/face doown",
 "TL": {
 "L": [
 {
@@ -8699,12 +8218,12 @@
 "ASI": {
 "N": "0020",
 "M3D": [
-0.4995880126953125,
+0.9991912841796875,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4995880126953125,
+0.9991912841796875,
 0.0,
 0.0,
 0.0,
@@ -8712,7 +8231,7 @@
 1.0,
 0.0,
 -14.95,
--23.45,
+-23.95,
 0.0,
 1.0
 ]
@@ -8728,19 +8247,19 @@
 "ASI": {
 "N": "0021",
 "M3D": [
-0.4995880126953125,
+0.9991912841796875,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4995880126953125,
+0.9991912841796875,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--13.45,
+-12.95,
 -23.95,
 0.0,
 1.0
@@ -8755,7 +8274,7 @@
 }
 },
 {
-"SN": "objetos e resto/downb raco",
+"SN": "objetos/airi objetos/downb raco",
 "TL": {
 "L": [
 {
@@ -8769,12 +8288,12 @@
 "ASI": {
 "N": "0019",
 "M3D": [
-0.498931884765625,
+0.9978790283203125,
 0.0,
 0.0,
 0.0,
 0.0,
-0.498931884765625,
+0.9978790283203125,
 0.0,
 0.0,
 0.0,
@@ -8796,7 +8315,7 @@
 }
 },
 {
-"SN": "objetos e resto/braco down",
+"SN": "objetos/airi objetos/braco down",
 "TL": {
 "L": [
 {
@@ -8810,12 +8329,12 @@
 "ASI": {
 "N": "0022",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
@@ -8823,7 +8342,7 @@
 1.0,
 0.0,
 -41.95,
--33.45,
+-32.95,
 0.0,
 1.0
 ]
@@ -8839,19 +8358,19 @@
 "ASI": {
 "N": "0023",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--39.45,
+-38.95,
 -32.95,
 0.0,
 1.0
@@ -8866,7 +8385,7 @@
 }
 },
 {
-"SN": "up",
+"SN": "airi/up",
 "TL": {
 "L": [
 {
@@ -8878,7 +8397,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8892,7 +8411,7 @@
 1.0491943359375,
 0.0,
 0.0,
--0.92529296875,
+-0.9252777099609375,
 -0.17315673828125,
 0.0,
 0.0,
@@ -8915,7 +8434,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/hand mic",
+"SN": "objetos/airi objetos/hand mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8957,7 +8476,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/up moc",
+"SN": "objetos/airi objetos/up moc",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -8994,7 +8513,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/up moc",
+"SN": "objetos/airi objetos/up moc",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9036,7 +8555,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9046,7 +8565,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0269927978515626,
+1.0269775390625,
 0.0446929931640625,
 0.0,
 0.0,
@@ -9073,7 +8592,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9083,7 +8602,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0269927978515626,
+1.0269775390625,
 0.0446929931640625,
 0.0,
 0.0,
@@ -9110,7 +8629,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9120,7 +8639,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9147,7 +8666,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9157,7 +8676,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9184,7 +8703,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9194,7 +8713,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9221,7 +8740,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9231,7 +8750,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9258,7 +8777,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9268,7 +8787,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9295,7 +8814,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9305,7 +8824,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9332,7 +8851,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9342,7 +8861,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9369,7 +8888,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -9379,7 +8898,7 @@
 "y": 89.95
 },
 "M3D": [
-1.0279693603515626,
+1.0279541015625,
 0.0,
 0.0,
 0.0,
@@ -9411,7 +8930,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9448,7 +8967,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9490,7 +9009,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9527,7 +9046,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9569,7 +9088,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9606,7 +9125,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9648,7 +9167,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9679,7 +9198,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9716,7 +9235,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9747,7 +9266,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9784,7 +9303,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9815,7 +9334,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9857,7 +9376,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9894,7 +9413,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9936,7 +9455,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -9973,7 +9492,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10015,7 +9534,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10052,7 +9571,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10089,7 +9608,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10126,7 +9645,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10163,7 +9682,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10200,7 +9719,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10237,7 +9756,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10274,7 +9793,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10311,7 +9830,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10348,7 +9867,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10390,7 +9909,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10427,7 +9946,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10437,7 +9956,7 @@
 "y": -35.800000000000007
 },
 "M3D": [
-1.0946197509765626,
+1.0946044921875,
 -0.1192626953125,
 0.0,
 0.0,
@@ -10464,7 +9983,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10501,7 +10020,7 @@
 }
 },
 {
-"SN": "objetos e resto/up moc",
+"SN": "objetos/airi objetos/up moc",
 "TL": {
 "L": [
 {
@@ -10515,12 +10034,12 @@
 "ASI": {
 "N": "0024",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -10542,7 +10061,7 @@
 }
 },
 {
-"SN": "objetos e resto/uup dace",
+"SN": "objetos/airi objetos/uup dace",
 "TL": {
 "L": [
 {
@@ -10556,19 +10075,19 @@
 "ASI": {
 "N": "0025",
 "M3D": [
-0.4863739013671875,
+0.9727783203125,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4863739013671875,
+0.9727783203125,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-14.1,
+14.55,
 27.2,
 0.0,
 1.0
@@ -10585,20 +10104,20 @@
 "ASI": {
 "N": "0026",
 "M3D": [
-0.4863739013671875,
+0.9727783203125,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4863739013671875,
+0.9727783203125,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-14.1,
-19.9,
+13.6,
+19.45,
 0.0,
 1.0
 ]
@@ -10612,7 +10131,7 @@
 }
 },
 {
-"SN": "objetos e resto/braco up",
+"SN": "objetos/airi objetos/braco up",
 "TL": {
 "L": [
 {
@@ -10626,12 +10145,12 @@
 "ASI": {
 "N": "0027",
 "M3D": [
-0.4995574951171875,
+0.9991302490234375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4995574951171875,
+0.9991302490234375,
 0.0,
 0.0,
 0.0,
@@ -10639,7 +10158,7 @@
 1.0,
 0.0,
 -20.95,
--7.45,
+-7.95,
 0.0,
 1.0
 ]
@@ -10655,12 +10174,12 @@
 "ASI": {
 "N": "0028",
 "M3D": [
-0.4995574951171875,
+0.9991302490234375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4995574951171875,
+0.9991302490234375,
 0.0,
 0.0,
 0.0,
@@ -10682,7 +10201,7 @@
 }
 },
 {
-"SN": "right",
+"SN": "airi/right",
 "TL": {
 "L": [
 {
@@ -10694,7 +10213,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/h mic",
+"SN": "objetos/airi objetos/h mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10731,7 +10250,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/h mic",
+"SN": "objetos/airi objetos/h mic",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10773,7 +10292,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10810,7 +10329,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -10847,7 +10366,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10884,7 +10403,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10921,7 +10440,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10958,7 +10477,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -10995,7 +10514,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11032,7 +10551,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11069,7 +10588,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11106,7 +10625,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11143,7 +10662,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11180,7 +10699,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11217,7 +10736,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11254,7 +10773,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11291,7 +10810,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -11333,7 +10852,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11370,7 +10889,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/franja",
+"SN": "objetos/airi objetos/franja",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11412,7 +10931,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11449,7 +10968,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabec",
+"SN": "objetos/airi objetos/cabec",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11491,7 +11010,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11528,7 +11047,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo frente",
+"SN": "objetos/airi objetos/cabelo frente",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11570,7 +11089,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11601,7 +11120,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11638,7 +11157,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 1",
+"SN": "objetos/airi objetos/maria chiquinha 1",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11669,7 +11188,7 @@
 },
 {
 "SI": {
-"SN": "objetos e resto/maria chiquinha 2",
+"SN": "objetos/airi objetos/maria chiquinha 2",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11711,7 +11230,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11748,7 +11267,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/pernas legau",
+"SN": "objetos/airi objetos/pernas legau",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11790,7 +11309,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/downb raco",
+"SN": "objetos/airi objetos/downb raco",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11827,7 +11346,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/downb raco",
+"SN": "objetos/airi objetos/downb raco",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11869,7 +11388,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11906,7 +11425,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/bod",
+"SN": "objetos/airi objetos/bod",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11948,7 +11467,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -11985,7 +11504,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -12022,7 +11541,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12059,7 +11578,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12096,7 +11615,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12133,7 +11652,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12170,7 +11689,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12207,7 +11726,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12244,7 +11763,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12281,7 +11800,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12318,7 +11837,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12355,7 +11874,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12392,7 +11911,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12429,7 +11948,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12466,7 +11985,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12508,7 +12027,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -12545,7 +12064,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -12582,7 +12101,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/cabelo atras",
+"SN": "objetos/airi objetos/cabelo atras",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -12619,7 +12138,7 @@
 }
 },
 {
-"SN": "objetos e resto/h mic",
+"SN": "objetos/airi objetos/h mic",
 "TL": {
 "L": [
 {
@@ -12633,20 +12152,20 @@
 "ASI": {
 "N": "0029",
 "M3D": [
-0.4649200439453125,
+0.9298553466796875,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4649200439453125,
+0.9298553466796875,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--2.3,
-6.95,
+-2.75,
+7.4,
 0.0,
 1.0
 ]
@@ -12660,7 +12179,7 @@
 }
 },
 {
-"SN": "objetos e resto/right face",
+"SN": "objetos/airi objetos/right face",
 "TL": {
 "L": [
 {
@@ -12674,12 +12193,12 @@
 "ASI": {
 "N": "0030",
 "M3D": [
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
 0.0,
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
@@ -12703,12 +12222,12 @@
 "ASI": {
 "N": "0031",
 "M3D": [
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
 0.0,
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
@@ -12737,20 +12256,20 @@
 "ASI": {
 "N": "0032",
 "M3D": [
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
 0.0,
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--0.45,
-29.45,
+0.0,
+28.95,
 0.0,
 1.0
 ]
@@ -12766,12 +12285,12 @@
 "ASI": {
 "N": "0033",
 "M3D": [
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
 0.0,
-0.49981689453125,
+0.9996490478515625,
 0.0,
 0.0,
 0.0,
@@ -12793,7 +12312,7 @@
 }
 },
 {
-"SN": "objetos e resto/left hand ar,",
+"SN": "objetos/airi objetos/left hand ar,",
 "TL": {
 "L": [
 {
@@ -12807,12 +12326,12 @@
 "ASI": {
 "N": "0034",
 "M3D": [
-0.4815216064453125,
+0.9630584716796875,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4815216064453125,
+0.9630584716796875,
 0.0,
 0.0,
 0.0,
@@ -12820,7 +12339,7 @@
 1.0,
 0.0,
 -28.85,
--33.2,
+-32.7,
 0.0,
 1.0
 ]
@@ -12836,20 +12355,20 @@
 "ASI": {
 "N": "0035",
 "M3D": [
-0.4815216064453125,
+0.9630584716796875,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4815216064453125,
+0.9630584716796875,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--38.0,
--33.2,
+-37.55,
+-32.7,
 0.0,
 1.0
 ]
@@ -12863,7 +12382,7 @@
 }
 },
 {
-"SN": "ugh",
+"SN": "airi/ugh",
 "TL": {
 "L": [
 {
@@ -12875,7 +12394,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/grrr face",
+"SN": "objetos/airi objetos/grrr face",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -12912,7 +12431,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/grrr face",
+"SN": "objetos/airi objetos/grrr face",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -12949,7 +12468,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/grrr face",
+"SN": "objetos/airi objetos/grrr face",
 "IN": "",
 "ST": "G",
 "FF": 2,
@@ -12986,10 +12505,84 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/grrr face",
+"SN": "objetos/airi objetos/grrr face",
 "IN": "",
 "ST": "G",
 "FF": 3,
+"LP": "LP",
+"TRP": {
+"x": 182.75,
+"y": 65.9
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+9.6,
+42.75,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 4,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "objetos/airi objetos/grrr face",
+"IN": "",
+"ST": "G",
+"FF": 4,
+"LP": "LP",
+"TRP": {
+"x": 182.75,
+"y": 65.9
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+9.6,
+42.75,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 5,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "objetos/airi objetos/grrr face",
+"IN": "",
+"ST": "G",
+"FF": 5,
 "LP": "LP",
 "TRP": {
 "x": 182.75,
@@ -13024,25 +12617,25 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0036",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-3.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+3.0,
 -11.0,
 0.0,
 1.0
@@ -13052,26 +12645,26 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0037",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-3.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+3.0,
 -9.0,
 0.0,
 1.0
@@ -13087,26 +12680,26 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0038",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--1.5,
--1.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+-2.0,
+-1.0,
 0.0,
 1.0
 ]
@@ -13115,19 +12708,19 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0039",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13150,26 +12743,26 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0040",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--35.5,
--28.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+-35.0,
+-28.0,
 0.0,
 1.0
 ]
@@ -13178,19 +12771,19 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0041",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13213,26 +12806,26 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0042",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--83.5,
--8.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+-83.0,
+-8.0,
 0.0,
 1.0
 ]
@@ -13241,19 +12834,19 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0043",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13261,7 +12854,7 @@
 1.0,
 0.0,
 -83.0,
--8.5,
+-8.0,
 0.0,
 1.0
 ]
@@ -13280,7 +12873,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/gararara",
+"SN": "objetos/airi objetos/gararara",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -13317,7 +12910,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/gararara",
+"SN": "objetos/airi objetos/gararara",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -13354,7 +12947,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/gararara",
+"SN": "objetos/airi objetos/gararara",
 "IN": "",
 "ST": "G",
 "FF": 2,
@@ -13391,10 +12984,84 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/gararara",
+"SN": "objetos/airi objetos/gararara",
 "IN": "",
 "ST": "G",
 "FF": 3,
+"LP": "LP",
+"TRP": {
+"x": 70.35,
+"y": 125.55
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+-34.0,
+205.4,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 4,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "objetos/airi objetos/gararara",
+"IN": "",
+"ST": "G",
+"FF": 4,
+"LP": "LP",
+"TRP": {
+"x": 70.35,
+"y": 125.55
+},
+"M3D": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+-34.0,
+205.4,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 5,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "objetos/airi objetos/gararara",
+"IN": "",
+"ST": "G",
+"FF": 5,
 "LP": "LP",
 "TRP": {
 "x": 70.35,
@@ -13429,18 +13096,18 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0044",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13457,26 +13124,26 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0045",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-1.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+1.0,
 344.0,
 0.0,
 1.0
@@ -13492,26 +13159,26 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0046",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-28.5,
-164.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+28.0,
+164.0,
 0.0,
 1.0
 ]
@@ -13520,19 +13187,19 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0047",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13540,7 +13207,7 @@
 1.0,
 0.0,
 29.0,
-163.5,
+164.0,
 0.0,
 1.0
 ]
@@ -13559,7 +13226,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/atrassa",
+"SN": "objetos/airi objetos/atrassa",
 "IN": "",
 "ST": "G",
 "FF": 0,
@@ -13596,7 +13263,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/atrassa",
+"SN": "objetos/airi objetos/atrassa",
 "IN": "",
 "ST": "G",
 "FF": 1,
@@ -13633,7 +13300,7 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/atrassa",
+"SN": "objetos/airi objetos/atrassa",
 "IN": "",
 "ST": "G",
 "FF": 2,
@@ -13670,10 +13337,84 @@
 "E": [
 {
 "SI": {
-"SN": "objetos e resto/atrassa",
+"SN": "objetos/airi objetos/atrassa",
 "IN": "",
 "ST": "G",
 "FF": 3,
+"LP": "LP",
+"TRP": {
+"x": 34.95,
+"y": 17.6
+},
+"M3D": [
+0.9981689453125,
+0.06048583984375,
+0.0,
+0.0,
+-0.06048583984375,
+0.9981689453125,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+117.05,
+197.85,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 4,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "objetos/airi objetos/atrassa",
+"IN": "",
+"ST": "G",
+"FF": 4,
+"LP": "LP",
+"TRP": {
+"x": 34.95,
+"y": 17.6
+},
+"M3D": [
+0.9981689453125,
+0.06048583984375,
+0.0,
+0.0,
+-0.06048583984375,
+0.9981689453125,
+0.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+117.05,
+197.85,
+0.0,
+1.0
+]
+}
+}
+]
+},
+{
+"I": 5,
+"DU": 1,
+"E": [
+{
+"SI": {
+"SN": "objetos/airi objetos/atrassa",
+"IN": "",
+"ST": "G",
+"FF": 5,
 "LP": "LP",
 "TRP": {
 "x": 34.95,
@@ -13708,25 +13449,25 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0048",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--75.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+-75.0,
 115.0,
 0.0,
 1.0
@@ -13736,19 +13477,19 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0049",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13770,7 +13511,7 @@
 }
 },
 {
-"SN": "objetos e resto/grrr face",
+"SN": "objetos/airi objetos/grrr face",
 "TL": {
 "L": [
 {
@@ -13778,25 +13519,25 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0050",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-31.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+32.0,
 48.0,
 0.0,
 1.0
@@ -13806,19 +13547,19 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0051",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13841,18 +13582,18 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0052",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13860,7 +13601,7 @@
 1.0,
 0.0,
 4.0,
-12.5,
+13.0,
 0.0,
 1.0
 ]
@@ -13869,19 +13610,19 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0053",
 "M3D": [
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
@@ -13889,7 +13630,7 @@
 1.0,
 0.0,
 4.0,
-12.5,
+13.0,
 0.0,
 1.0
 ]
@@ -13903,7 +13644,7 @@
 }
 },
 {
-"SN": "objetos e resto/gararara",
+"SN": "objetos/airi objetos/gararara",
 "TL": {
 "L": [
 {
@@ -13911,26 +13652,26 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0054",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--0.5,
--0.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+-1.0,
+-1.0,
 0.0,
 1.0
 ]
@@ -13939,27 +13680,27 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0055",
 "M3D": [
-0.5,
-0.0,
-0.0,
-0.0,
-0.0,
-0.5,
+1.0,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
--0.5,
--0.5,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+-1.0,
 0.0,
 1.0
 ]
@@ -13973,7 +13714,7 @@
 }
 },
 {
-"SN": "objetos e resto/atrassa",
+"SN": "objetos/airi objetos/atrassa",
 "TL": {
 "L": [
 {
@@ -13981,18 +13722,18 @@
 "FR": [
 {
 "I": 0,
-"DU": 2,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0056",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
@@ -14009,27 +13750,27 @@
 ]
 },
 {
-"I": 2,
-"DU": 2,
+"I": 3,
+"DU": 3,
 "E": [
 {
 "ASI": {
 "N": "0057",
 "M3D": [
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
-0.4999847412109375,
+0.9999847412109375,
 0.0,
 0.0,
 0.0,
 0.0,
 1.0,
 0.0,
-0.45,
--0.45,
+0.0,
+0.0,
 0.0,
 1.0
 ]

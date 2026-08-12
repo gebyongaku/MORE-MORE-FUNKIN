@@ -116,7 +116,7 @@ class MainMenuState extends MusicBeatState
             mmjnins.add(mmjin);
         }
 		
-		final ver = "Nightmare Vision Engine V" + Main.NMV_VERSION + '\nPsych Engine v' + Main.PSYCH_VERSION + "\nFriday Night Funkin' v" + Main.FUNKIN_VERSION;
+		final ver = "MORE MORE FUNKIN' V1.0.0" + "\nNightmare Vision Engine V" + Main.NMV_VERSION + '\nPsych Engine V' + Main.PSYCH_VERSION + "\nFriday Night Funkin' V" + Main.FUNKIN_VERSION;
 		
 		final verionDesc:FlxText = new FlxText(12, 0, 0, ver, 16);
 		verionDesc.setFormat(Paths.DEFAULT_FONT, 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);

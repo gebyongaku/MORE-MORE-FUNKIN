@@ -9,7 +9,7 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "idle",
+			"name": "shizuku/idle",
 			"indices": [],
 			"flipX": false
 		},
@@ -22,7 +22,7 @@
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "left",
+			"name": "shizuku/left",
 			"indices": [],
 			"flipX": false
 		},
@@ -35,7 +35,7 @@
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "right",
+			"name": "shizuku/right",
 			"indices": [],
 			"flipX": false
 		},
@@ -48,7 +48,7 @@
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "down",
+			"name": "shizuku/down",
 			"indices": [],
 			"flipX": false
 		},
@@ -61,7 +61,7 @@
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "up",
+			"name": "shizuku/up",
 			"indices": [],
 			"flipX": false
 		},
@@ -76,7 +76,7 @@
 			"anim": "funny",
 			"flipX": false,
 			"indices": [],
-			"name": "funny"
+			"name": "shizuku/funny"
 		}
 	],
 	"no_antialiasing": false,

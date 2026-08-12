@@ -1,69 +1,69 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
 			"anim": "idle",
-			"fps": 24,
-			"name": "idle",
-			"indices": [],
-			"flipX": false
+			"loop": false,
+			"name": "minori/idle"
 		},
 		{
-			"loop": false,
-			"flipY": false,
-			"offsets": [
-				83,
-				25
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "left",
-			"indices": [],
-			"flipX": false
-		},
-		{
-			"loop": false,
-			"flipY": false,
-			"offsets": [
-				-24,
-				21
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "right",
-			"indices": [],
-			"flipX": false
-		},
-		{
-			"loop": false,
-			"flipY": false,
 			"offsets": [
 				-15,
 				-24
 			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "down",
 			"indices": [],
-			"flipX": false
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "minori/down"
 		},
 		{
-			"loop": false,
+			"offsets": [
+				83,
+				25
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
 			"flipY": false,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "minori/left"
+		},
+		{
 			"offsets": [
 				10,
 				41
 			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
 			"indices": [],
-			"flipX": false
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singUP",
+			"loop": false,
+			"name": "minori/up"
+		},
+		{
+			"offsets": [
+				-24,
+				21
+			],
+			"indices": [],
+			"fps": 24,
+			"flipX": false,
+			"flipY": false,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "minori/right"
 		}
 	],
 	"no_antialiasing": false,
