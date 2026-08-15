@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="minori.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="minori happy0000" x="0" y="0" width="346" height="424"/>
+	<SubTexture name="minori normal0000" x="346" y="0" width="345" height="403"/>
+	<SubTexture name="minori sad0000" x="0" y="424" width="343" height="404"/>
+</TextureAtlas>
