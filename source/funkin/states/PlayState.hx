@@ -41,6 +41,7 @@ import funkin.data.*;
 import funkin.states.*;
 import funkin.states.substates.*;
 import funkin.states.editors.*;
+import funkin.states.transitions.ScriptedTransition;
 import funkin.game.modchart.*;
 import funkin.game.StoryMeta;
 import funkin.game.Countdown;
@@ -2662,6 +2663,9 @@ class PlayState extends MusicBeatState
 					FlxTransitionableState.skipNextTransIn = true;
 					FlxTransitionableState.skipNextTransOut = true;
 					
+					MusicBeatState.transitionInState = null;
+					MusicBeatState.transitionOutState = null;
+
 					prevCamFollow = camFollow;
 					
 					final difficulty:String = Difficulty.getDifficultyFilePath();

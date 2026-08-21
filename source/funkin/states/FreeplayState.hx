@@ -12,6 +12,7 @@ import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.tweens.FlxTween;
 
+import funkin.states.transitions.ScriptedTransition;
 import funkin.backend.Difficulty;
 import funkin.Mods;
 import funkin.data.SongMetaData;
@@ -326,6 +327,8 @@ class FreeplayState extends MusicBeatState
 			{
 				mayGoToChartConverter = false;
 				changeSelection();
+                MusicBeatState.transitionInState = null;
+                MusicBeatState.transitionOutState = null;
 			}
 			
 			super.update(elapsed);
@@ -350,6 +353,8 @@ class FreeplayState extends MusicBeatState
 			
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			FlxG.switchState(MainMenuState.new);
+			MusicBeatState.transitionInState = null;
+			MusicBeatState.transitionOutState = null;
 		}
 		
 		if (FlxG.keys.justPressed.CONTROL)
@@ -407,7 +412,9 @@ class FreeplayState extends MusicBeatState
 				super.update(FlxG.elapsed);
 				return;
 			}
-			
+
+			ScriptedTransition.setTransition('Sticker');
+
 			FlxTween.cancelTweensOf(bg, ['color']);
 			
 			if (FlxG.keys.pressed.SHIFT)
@@ -419,7 +426,12 @@ class FreeplayState extends MusicBeatState
 				FlxG.switchState(PlayState.new);
 			}
 			
-			if (FlxG.sound.music != null) FlxG.sound.music.volume = 0;
+		    if (FlxG.sound.music != null)
+			{
+			    FlxTween.tween(FlxG.sound.music, {volume: 0}, 1, {
+			        ease: FlxEase.linear
+ 			   });
+            }
 			
 			destroyFreeplayVocals();
 		}
