@@ -13,6 +13,7 @@ import flixel.util.FlxTimer;
 import funkin.states.*;
 
 // rewrite this later
+// fazendo saporra
 class DialogueBox extends FlxSpriteGroup
 {
 	var box:FlxSprite;
@@ -22,7 +23,6 @@ class DialogueBox extends FlxSpriteGroup
 	var dialogue:Alphabet;
 	var dialogueList:Array<String> = [];
 	
-	// SECOND DIALOGUE FOR THE PIXEL SHIT INSTEAD???
 	var swagDialogue:FlxTypeText;
 	
 	var dropText:FlxText;
