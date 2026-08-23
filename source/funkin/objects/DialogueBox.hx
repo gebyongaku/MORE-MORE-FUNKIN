@@ -45,7 +45,7 @@ class DialogueBox extends FlxSpriteGroup
 		
 		switch (PlayState.SONG.song.toLowerCase())
 		{
-			case 'senpai':
+			case 'step':
 				FunkinSound.playMusic(Paths.music('Lunchbox'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 			case 'thorns':
@@ -68,7 +68,7 @@ class DialogueBox extends FlxSpriteGroup
 		var hasDialog = false;
 		switch (PlayState.SONG.song.toLowerCase())
 		{
-			case 'senpai':
+			case 'step':
 				hasDialog = true;
 				box.frames = Paths.getSparrowAtlas('pixelUI/dialogueBox-pixel');
 				box.animation.addByPrefix('normalOpen', 'Text Box Appear', 24, false);
