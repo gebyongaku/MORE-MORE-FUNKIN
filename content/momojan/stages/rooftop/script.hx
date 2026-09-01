@@ -112,10 +112,10 @@ function onLoad()
     minori3 = new Bopper(-840, 90).loadAtlas('MMJ/gift/minori_shizuku_bg');
 	minori3.addAnimByPrefix("idle", "shizuku/minori bg", 24, false);
 	minori3.animation.play("idle");
-	minori3.scale.set(1, 1);
+	minori3.scale.set(1.02, 1);
 	minori3.antialiasing = true;
 
-    haruka3 = new Bopper(160, 95).loadAtlas("MMJ/gift/haruka_shizuku_bg");
+    haruka3 = new Bopper(140, 90).loadAtlas("MMJ/gift/haruka_shizuku_bg");
     haruka3.addAnimByIndices('danceLeft', 'shizuku/haruka bg 1', MathUtil.numberArray(0, 14), 24, false);
 	haruka3.addAnimByIndices('danceRight', 'shizuku/haruka bg 1', MathUtil.numberArray(15, 29), 24, false);
     haruka3.dance(); 
@@ -124,7 +124,7 @@ function onLoad()
 	haruka3.antialiasing = true;
     haruka3.zIndex = 1;
 
-    corpo = new Bopper(215, 280).loadAtlas("MMJ/gift/haruka_corpo");
+    corpo = new Bopper(180, 280).loadAtlas("MMJ/gift/haruka_corpo");
     corpo.addAnimByIndices('danceLeft', 'shizuku/haruka bg', MathUtil.numberArray(0, 14), 24, false);
 	corpo.addAnimByIndices('danceRight', 'shizuku/haruka bg', MathUtil.numberArray(15, 29), 24, false);
     corpo.dance(); 
@@ -215,6 +215,25 @@ function onBeatHit()
     haruka3.dance();
     corpo.dance();
     airi3.animation.play("idle");
+}
+
+var a = false;
+
+function onStartCountdown()
+{
+	if (!a && PlayState.isStoryMode)
+	{
+		a = true;
+		var path = Paths.getPath('data/dialogue/' + songName + '/' + songName + 'Dialogue.txt', null, true);
+		dialogueBox = new DialogueBox(false, CoolUtil.coolTextFile(path));
+		dialogueBox.scrollFactor.set();
+		dialogueBox.camera = camOther;
+		dialogueBox.finishThing = startCountdown;
+		
+		add(dialogueBox);
+		
+		return Function_Stop;
+	}
 }
 
 function onEvent(name, v1, v2)

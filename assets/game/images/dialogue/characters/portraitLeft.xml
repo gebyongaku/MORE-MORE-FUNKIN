@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="portraitLeft.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="minori0000" x="0" y="0" width="347" height="436"/>
+	<SubTexture name="minoriscary0000" x="347" y="0" width="347" height="436"/>
+	<SubTexture name="minorithink0000" x="0" y="436" width="351" height="438"/>
+	<SubTexture name="minoriwoah0000" x="351" y="436" width="347" height="436"/>
+</TextureAtlas>
