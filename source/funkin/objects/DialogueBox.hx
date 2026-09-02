@@ -289,6 +289,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeft.visible = false;
 		}
 	}
+	// que bonitinho kkkk
 	
 	function cleanDialog():Void
 	{
