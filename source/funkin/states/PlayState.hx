@@ -417,6 +417,15 @@ class PlayState extends MusicBeatState
 	
 	public var defaultCamZoomAdd:Float = 0;
 	
+	var blackYnot:FlxSprite;
+	var vidPlaying:Bool = false;
+	var skippingVideo:Bool = false;
+	var endingCutscene:Bool = false;
+
+	public var videoCheckStory:Bool = true;
+	public var skippableVideo:Bool = true;
+	public var video:FunkinVideoSprite;
+
 	/**
 	 * Default camera zoom the game will attempt to return to.
 	 * 
@@ -832,7 +841,8 @@ class PlayState extends MusicBeatState
 			songStartCallback = startCountdown;
 		}
 		
-		songStartCallback();
+		if (!inCutscene && !vidPlaying)
+			songStartCallback();
 		
 		RecalculateRating();
 		updateScoreBar();
@@ -1027,6 +1037,8 @@ class PlayState extends MusicBeatState
 	
 	public function startCountdown():Void
 	{
+		if (inCutscene || vidPlaying) return;
+
 		if (startedCountdown)
 		{
 			scripts.call('onStartCountdown', []);
@@ -1724,6 +1736,26 @@ class PlayState extends MusicBeatState
 		
 		super.update(elapsed);
 		input.update();
+
+		if (FlxG.keys.justPressed.SPACE)
+		{
+			if (vidPlaying && skippableVideo)
+			{
+				vidPlaying = false;
+
+				if (video != null)
+				{
+					FlxTween.tween(video, {alpha: 0}, 0.25, {
+						ease: FlxEase.quadOut,
+						onComplete: function(_)
+						{
+							video.stop();
+							onVidEnd();
+						}
+					});
+				}
+			}
+		}
 		
 		if (controls.PAUSE && startedCountdown && canPause)
 		{
@@ -2550,6 +2582,99 @@ class PlayState extends MusicBeatState
 		
 		scripts.set('whosTurn', isDad ? 'dad' : 'boyfriend');
 	}
+
+	function onVidEnd()
+	{
+	   	if (video != null)
+	    {
+	        FlxG.state.remove(video, true);
+	        video = null;
+	    }
+
+		inCutscene = false;
+		vidPlaying = false;
+
+		persistentUpdate = true;
+    	persistentDraw = true;
+
+	    camGame.visible = true;
+	    camHUD.visible = true;
+	
+    	if (blackYnot == null)
+    	{
+        	blackYnot = new FlxSprite().makeGraphic(
+            	FlxG.width + 3,
+           		FlxG.height,
+            	FlxColor.BLACK
+        	);
+        blackYnot.camera = camOther;
+        add(blackYnot);
+    }
+
+    FlxG.camera.fade(FlxColor.BLACK, 0.5, true, function()
+    {
+        if (endingCutscene)
+        	{
+        	    endingCutscene = false;
+        	    endSong();
+        	    ScriptedTransition.setTransition('Sticker');
+        	}
+        	else
+        	{
+        	    startCountdown();
+    	    }
+        });
+    }
+
+	public function videoCutscene(?vid:String = 'step', ?canSkip:Bool, ?onEnd:Void->Void, ?onFormat:Void->Void)
+	{
+    	if ((videoCheckStory && !isStoryMode) || PlayState.seenCutscene) return;
+
+    	inCutscene = true;
+    	vidPlaying = true;
+    	skippableVideo = (canSkip ?? true);
+
+    	camGame.visible = false;
+    	camHUD.visible = false;
+
+    	FlxG.state.persistentUpdate = false;
+    	FlxG.state.persistentDraw = false;
+
+    	blackYnot = new FlxSprite().makeGraphic(FlxG.width + 3, FlxG.height, FlxColor.BLACK);
+    	blackYnot.camera = camOther;
+    	add(blackYnot);
+
+    	video = new FunkinVideoSprite();
+
+    	video.onEnd(onVidEnd);
+
+    	video.onFormat(() -> {
+        	vidPlaying = true;
+        	camGame.visible = false;
+
+        	video.camera = camOther;
+        	video.setGraphicSize(0, FlxG.height);
+        	video.updateHitbox();
+        	video.screenCenter();
+
+        	if (blackYnot != null)
+        	{
+        	    blackYnot.alpha = 1;
+        	}
+			
+    	});
+
+    	add(video);
+
+    	if (onEnd != null) video.onEnd(onEnd);
+		if (onFormat != null) video.onFormat(onFormat);
+		if (video.load(Paths.video(Paths.sanitize(vid))))
+		{
+		    FlxTimer.wait(0.01, () -> {
+		        video.play();
+		    });
+		}
+	}
 	
 	/**
 	 * 'Snaps the camera to a position.'
@@ -2612,9 +2737,10 @@ class PlayState extends MusicBeatState
 		updateTime = false;
 		
 		deathCounter = 0;
-		seenCutscene = false;
 		
 		final ret:Dynamic = scripts.call('onEndSong', []);
+
+		seenCutscene = false;
 		
 		if (ret != ScriptConstants.STOP_FUNC && !transitioning)
 		{

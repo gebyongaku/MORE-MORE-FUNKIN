@@ -61,7 +61,7 @@ class CreditsState extends MusicBeatState
 		[''],
 		['Special Thanks'],
 	    ['Square9', 'square9', 'Charter', 'https://twitter.com/Square9VA', '0xFF56F856'],
-        ['bennation', 'bennation', 'Additional Codes', 'https://twitter.com/eobennation', '0xFF233DA9'],
+        ['bennation', 'bennation', 'Some Background and Cutscene Codes', 'https://twitter.com/eobennation', '0xFF233DA9'],
 		// NMV devs
 		[''],
 		['NIGHTMARE FEDS'],

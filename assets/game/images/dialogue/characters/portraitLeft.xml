@@ -2,8 +2,14 @@
 <TextureAtlas imagePath="portraitLeft.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="minori0000" x="0" y="0" width="347" height="436"/>
-	<SubTexture name="minoriscary0000" x="347" y="0" width="347" height="436"/>
-	<SubTexture name="minorithink0000" x="0" y="436" width="351" height="438"/>
-	<SubTexture name="minoriwoah0000" x="351" y="436" width="347" height="436"/>
+	<SubTexture name="airi0000" x="0" y="0" width="413" height="451"/>
+	<SubTexture name="haruka0000" x="413" y="0" width="387" height="463"/>
+	<SubTexture name="harukathink0000" x="800" y="0" width="387" height="463"/>
+	<SubTexture name="harukawoah0000" x="1187" y="0" width="387" height="463"/>
+	<SubTexture name="minori0000" x="1574" y="0" width="388" height="463"/>
+	<SubTexture name="minorikawaii0000" x="0" y="463" width="388" height="463"/>
+	<SubTexture name="minoriscary0000" x="388" y="463" width="388" height="463"/>
+	<SubTexture name="minorithink0000" x="776" y="463" width="388" height="463"/>
+	<SubTexture name="minoriwoah0000" x="1164" y="463" width="388" height="463"/>
+	<SubTexture name="shizuku0000" x="1552" y="463" width="398" height="474"/>
 </TextureAtlas>

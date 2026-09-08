@@ -12,8 +12,6 @@ import flixel.util.FlxTimer;
 
 import funkin.states.*;
 
-// rewrite this later
-// fazendo saporra
 class DialogueBox extends FlxSpriteGroup
 {
 	var box:FlxSprite;
@@ -40,13 +38,6 @@ class DialogueBox extends FlxSpriteGroup
 	{
 		super();
 		
-		switch (PlayState.SONG.song.toLowerCase())
-		{
-			case 'senpai':
-				FunkinSound.playMusic(Paths.music('Lunchbox'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
-		}
-		
 		bgDia = new FlxSprite(-20, -20).loadGraphic(Paths.image("dialogue/bg"));
 		bgDia.scrollFactor.set();
 		add(bgDia);
@@ -58,9 +49,9 @@ class DialogueBox extends FlxSpriteGroup
 			    hasDialog = true;
 			    box = new FlxSprite(-20, 430);
 			    box.frames = Paths.getSparrowAtlas('dialogue/speech_bubble_talking');
-			    box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
-			    box.animation.addByPrefix('normal', 'speech bubble normal', 24, false);
-			    box.antialiasing = true;
+				box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
+				box.animation.addByIndices('normal', 'Speech Bubble Normal Open', [5], "", 24);
+				box.antialiasing = true;
 		}
 		
 		this.dialogueList = dialogueList;
@@ -73,7 +64,10 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeft.animation.addByPrefix('minoriwoah', 'minoriwoah', 24, false);
 		portraitLeft.animation.addByPrefix('minoriscary', 'minoriscary', 24, false);
 		portraitLeft.animation.addByPrefix('minorithink', 'minorithink', 24, false);
+		portraitLeft.animation.addByPrefix('minorikawaii', 'minorikawaii', 24, false);
 		portraitLeft.animation.addByPrefix('haruka', 'haruka0', 24, false);
+		portraitLeft.animation.addByPrefix('harukawoah', 'harukawoah', 24, false);
+		portraitLeft.animation.addByPrefix('harukathink', 'harukathink', 24, false);
 		portraitLeft.animation.addByPrefix('airi', 'airi0', 24, false);
 		portraitLeft.animation.addByPrefix('shizuku', 'shizuku0', 24, false);
 		portraitLeft.antialiasing = true;
@@ -83,13 +77,15 @@ class DialogueBox extends FlxSpriteGroup
 		add(portraitLeft);
 		portraitLeft.visible = false;
 		
-		portraitRight = new FlxSprite(700, 110);
+		portraitRight = new FlxSprite(700, 90);
         portraitRight.frames = Paths.getSparrowAtlas('dialogue/characters/portraitRight');
 		portraitRight.animation.addByPrefix('bf', 'bf0', 24, false);
 		portraitRight.animation.addByPrefix('bfyeah', 'bfyeah', 24, false);
-		portraitRight.animation.addByPrefix('bfconfused', 'bfconfused0', 24, false);
+		portraitRight.animation.addByPrefix('bfmic', 'bfmic', 24, false);
+		portraitRight.animation.addByPrefix('bfconfused', 'bfconfused', 24, false);
+		portraitRight.animation.addByPrefix('bfwow', 'bfwow', 24, false);
 		portraitRight.animation.addByPrefix('bfmiss', 'bfmiss', 24, false);
-		portraitRight.animation.addByPrefix('gf', 'gf0', 24, false);
+		portraitRight.animation.addByPrefix('gf', 'gf', 24, false);
 		portraitRight.antialiasing = true;
 		portraitRight.setGraphicSize();
 		portraitRight.updateHitbox();
@@ -131,15 +127,6 @@ class DialogueBox extends FlxSpriteGroup
 	
 	override function update(elapsed:Float)
 	{
-		// HARD CODING CUZ IM STUPDI
-		if (PlayState.SONG.song.toLowerCase() == 'roses') portraitLeft.visible = false;
-		if (PlayState.SONG.song.toLowerCase() == 'thorns')
-		{
-			portraitLeft.visible = false;
-			swagDialogue.color = FlxColor.WHITE;
-			dropText.color = FlxColor.BLACK;
-		}
-		
 		dropText.text = swagDialogue.text;
 		
 		if (box.animation.curAnim != null)
@@ -169,7 +156,7 @@ class DialogueBox extends FlxSpriteGroup
 						isEnding = true;
 						FlxG.sound.play(Paths.sound('clickText'), 0.4);
 							
-						new FlxTimer().start(0.2, function(tmr:FlxTimer) {
+						new FlxTimer().start(0.1, function(tmr:FlxTimer) {
 							box.alpha -= 1 / 5;
 							bgDia.alpha -= 1 / 5 * 0.7;
 							portraitLeft.visible = false;
@@ -193,7 +180,6 @@ class DialogueBox extends FlxSpriteGroup
 			}
 			else if (dialogueStarted)
 			{
-				FlxG.sound.play(Paths.sound('clickText'), 0.4);
 				swagDialogue.skip();
 				
 				if (skipDialogueThing != null)
@@ -211,11 +197,6 @@ class DialogueBox extends FlxSpriteGroup
 	function startDialogue():Void
 	{
 		cleanDialog();
-		// var theDialog:Alphabet = new Alphabet(0, 70, dialogueList[0], false, true);
-		// dialogue = theDialog;
-		// add(theDialog);
-		
-		// swagDialogue.text = ;
 		swagDialogue.resetText(dialogueList[0]);
 		swagDialogue.start(0.08, true);
 		swagDialogue.completeCallback = function() {
@@ -254,18 +235,33 @@ class DialogueBox extends FlxSpriteGroup
 				portraitRight.visible = false;
 				portraitLeft.visible = true;
 				portraitLeft.animation.play('minorithink');
+			case 'minorikawaii':
+				portraitRight.visible = false;
+				portraitLeft.visible = true;
+				portraitLeft.animation.play('minorikawaii');
 
 			case 'haruka':
 				portraitRight.visible = false;
-				portraitLeft.visible = false;
+				portraitLeft.visible = true;
+				portraitLeft.animation.play('haruka');
+			case 'harukawoah':
+				portraitRight.visible = false;
+				portraitLeft.visible = true;
+				portraitLeft.animation.play('harukawoah');
+			case 'harukathink':
+				portraitRight.visible = false;
+				portraitLeft.visible = true;
+				portraitLeft.animation.play('harukathink');
 
 			case 'airi':
 				portraitRight.visible = false;
-				portraitLeft.visible = false;
+				portraitLeft.visible = true;
+				portraitLeft.animation.play('airi');
 
 			case 'shizuku':
 				portraitRight.visible = false;
-				portraitLeft.visible = false;
+				portraitLeft.visible = true;
+				portraitLeft.animation.play('shizuku');
 
 			case 'bf':
 				portraitLeft.visible = false;
@@ -275,18 +271,27 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeft.visible = false;
 				portraitRight.visible = true;
 				portraitRight.animation.play('bfyeah');
+			case 'bfmic':
+				portraitLeft.visible = false;
+				portraitRight.visible = true;
+				portraitRight.animation.play('bfmic');
 			case 'bfconfused':
 				portraitLeft.visible = false;
 				portraitRight.visible = true;
 				portraitRight.animation.play('bfconfused');
+			case 'bfwow':
+				portraitLeft.visible = false;
+				portraitRight.visible = true;
+				portraitRight.animation.play('bfwow');
 			case 'bfmiss':
 				portraitLeft.visible = false;
 				portraitRight.visible = true;
 				portraitRight.animation.play('bfmiss');
 
 			case 'gf':
-				portraitRight.visible = false;
 				portraitLeft.visible = false;
+				portraitRight.visible = true;
+				portraitRight.animation.play('gf');
 		}
 	}
 	// que bonitinho kkkk

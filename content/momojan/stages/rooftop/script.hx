@@ -217,23 +217,31 @@ function onBeatHit()
     airi3.animation.play("idle");
 }
 
-var a = false;
+var a:Bool = false;
 
 function onStartCountdown()
 {
-	if (!a && PlayState.isStoryMode)
-	{
-		a = true;
+    if (!a && PlayState.isStoryMode)
+    {
+        a = true;
+
 		var path = Paths.getPath('data/dialogue/' + songName + '/' + songName + 'Dialogue.txt', null, true);
 		dialogueBox = new DialogueBox(false, CoolUtil.coolTextFile(path));
 		dialogueBox.scrollFactor.set();
 		dialogueBox.camera = camOther;
 		dialogueBox.finishThing = startCountdown;
-		
-		add(dialogueBox);
-		
-		return Function_Stop;
-	}
+
+        add(dialogueBox);
+
+    if (songName == 'step')
+    {
+        blackYnot.alpha = 0;
+    }
+    
+        return Function_Stop;
+    }
+
+    return Function_Continue;
 }
 
 function onEvent(name, v1, v2)
