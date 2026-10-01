@@ -85,7 +85,7 @@ class DialogueBox extends FlxSpriteGroup
 		add(portraitLeft);
 		portraitLeft.visible = false;
 
-		portraitRight = new FlxSprite(770, 150);
+		portraitRight = new FlxSprite(770, 145);
         portraitRight.frames = Paths.getSparrowAtlas('dialogue/characters/portraitRight');
 		portraitRight.animation.addByPrefix('bf', 'bf0', 24, false);
 		portraitRight.animation.addByPrefix('bfyeah', 'bfyeah', 24, false);
@@ -110,7 +110,7 @@ class DialogueBox extends FlxSpriteGroup
 			// box.flipX = true;
 		}
 		
-		charName = new FlxText(130, 500, "", 36);
+		charName = new FlxText(135, 505, "", 36);
 		charName.font = 'FOT RodinNTLGPro EB.otf';
 		charName.color = FlxColor.WHITE;
 	    charName.borderStyle = FlxTextBorderStyle.OUTLINE;
@@ -118,12 +118,12 @@ class DialogueBox extends FlxSpriteGroup
 		charName.borderSize = 3.5;
 		add(charName);
 		
-		swagDialogue = new FlxTypeText(130, 560, Std.int(FlxG.width * 0.6), "", 36);
+		swagDialogue = new FlxTypeText(140, 560, Std.int(FlxG.width * 0.6), "", 30);
 		swagDialogue.font = 'FOT RodinNTLGPro EB.otf';
 		swagDialogue.color = FlxColor.WHITE;
 		swagDialogue.borderStyle = FlxTextBorderStyle.OUTLINE;
 		swagDialogue.borderColor = 0xFF605D7A;
-		swagDialogue.borderSize = 3.5;
+		swagDialogue.borderSize = 3;
 		add(swagDialogue);
 		
 		dialogue = new Alphabet(0, 0, "", false);
@@ -227,7 +227,7 @@ class DialogueBox extends FlxSpriteGroup
     }
 
     var portraitLeftY:Float = 15;
-    var portraitRightY:Float = 150;
+    var portraitRightY:Float = 145;
 
 	function animPortrait(portrait:FlxSprite):Void
 	{
