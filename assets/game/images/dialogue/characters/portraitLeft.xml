@@ -2,14 +2,23 @@
 <TextureAtlas imagePath="portraitLeft.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="airi0000" x="0" y="0" width="413" height="451"/>
-	<SubTexture name="haruka0000" x="413" y="0" width="387" height="463"/>
-	<SubTexture name="harukathink0000" x="800" y="0" width="387" height="463"/>
-	<SubTexture name="harukawoah0000" x="1187" y="0" width="387" height="463"/>
-	<SubTexture name="minori0000" x="1574" y="0" width="388" height="463"/>
-	<SubTexture name="minorikawaii0000" x="0" y="463" width="388" height="463"/>
-	<SubTexture name="minoriscary0000" x="388" y="463" width="388" height="463"/>
-	<SubTexture name="minorithink0000" x="776" y="463" width="388" height="463"/>
-	<SubTexture name="minoriwoah0000" x="1164" y="463" width="388" height="463"/>
-	<SubTexture name="shizuku0000" x="1552" y="463" width="398" height="474"/>
+	<SubTexture name="airi0000" x="0" y="0" width="469" height="523"/>
+	<SubTexture name="airiangry0000" x="469" y="0" width="469" height="523"/>
+	<SubTexture name="airieegh0000" x="938" y="0" width="469" height="523"/>
+	<SubTexture name="airifunnyface0000" x="1407" y="0" width="469" height="524"/>
+	<SubTexture name="airiwoah0000" x="1876" y="0" width="469" height="523"/>
+	<SubTexture name="haruka0000" x="2345" y="0" width="469" height="523"/>
+	<SubTexture name="harukasmile0000" x="2814" y="0" width="469" height="523"/>
+	<SubTexture name="harukathink0000" x="0" y="524" width="469" height="523"/>
+	<SubTexture name="harukawoah0000" x="469" y="524" width="469" height="523"/>
+	<SubTexture name="minori0000" x="938" y="524" width="469" height="523"/>
+	<SubTexture name="minoridead0000" x="1407" y="524" width="469" height="523"/>
+	<SubTexture name="minorikawaii0000" x="1876" y="524" width="469" height="523"/>
+	<SubTexture name="minoriscary0000" x="2345" y="524" width="469" height="523"/>
+	<SubTexture name="minorithink0000" x="2814" y="524" width="469" height="523"/>
+	<SubTexture name="minoriwoah0000" x="0" y="1047" width="469" height="523"/>
+	<SubTexture name="shizuku0000" x="469" y="1047" width="469" height="523"/>
+	<SubTexture name="shizukuarmup0000" x="938" y="1047" width="469" height="523"/>
+	<SubTexture name="shizukuhappy0000" x="1407" y="1047" width="469" height="523"/>
+	<SubTexture name="shizukuwoah0000" x="1876" y="1047" width="469" height="523"/>
 </TextureAtlas>

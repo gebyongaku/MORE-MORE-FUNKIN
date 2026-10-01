@@ -63,22 +63,31 @@ class Splash extends FlxState
 	
 	override function update(elapsed:Float)
 	{
+		super.update(elapsed);
 
-        super.update(elapsed);
+		#if VIDEOS_ALLOWED
+		if (video != null)
+		{
+			if (FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER)
+			{
+				video.stop();
+				video.destroy();
+				video = null;
 
-        #if VIDEOS_ALLOWED
-        if (video != null)
-    {
-        if (FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER)
-        {
-            video.stop();
-            video.destroy();
-            video = null;
+				logoFunc();
+			}
+		}
+		else if (logo != null)
+		{
+			logo.updateHitbox();
+			logo.screenCenter();
 
-        logoFunc();
-        }
-    }
-    #end
+			if (FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER)
+			{
+				finish();
+			}
+		}
+	#end
 	}
 	
 	function logoFunc()

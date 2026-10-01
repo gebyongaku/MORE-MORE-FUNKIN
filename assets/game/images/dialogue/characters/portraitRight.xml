@@ -2,11 +2,11 @@
 <TextureAtlas imagePath="portraitRight.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="bf0000" x="0" y="0" width="388" height="395"/>
-	<SubTexture name="bfconfused0000" x="388" y="0" width="388" height="395"/>
-	<SubTexture name="bfmic0000" x="776" y="0" width="388" height="394"/>
-	<SubTexture name="bfmiss0000" x="1164" y="0" width="388" height="395"/>
-	<SubTexture name="bfwow0000" x="1552" y="0" width="388" height="395"/>
-	<SubTexture name="bfyeah0000" x="0" y="395" width="388" height="395"/>
-	<SubTexture name="gf0000" x="388" y="395" width="389" height="395"/>
+	<SubTexture name="bf0000" x="0" y="0" width="395" height="395"/>
+	<SubTexture name="bfconfused0000" x="395" y="0" width="395" height="395"/>
+	<SubTexture name="bfmic0000" x="790" y="0" width="395" height="395"/>
+	<SubTexture name="bfmiss0000" x="1185" y="0" width="395" height="395"/>
+	<SubTexture name="bfwow0000" x="0" y="395" width="396" height="395"/>
+	<SubTexture name="bfyeah0000" x="396" y="395" width="395" height="395"/>
+	<SubTexture name="gf0000" x="791" y="395" width="395" height="395"/>
 </TextureAtlas>

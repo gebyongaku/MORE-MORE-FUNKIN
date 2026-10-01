@@ -6,6 +6,7 @@ import flixel.addons.transition.FlxTransitionableState;
 import flixel.group.FlxGroup;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
+import flixel.addons.display.FlxBackdrop;
 
 import funkin.game.shaders.ColorSwap;
 import funkin.data.WeekData;
@@ -16,7 +17,7 @@ class TitleState extends MusicBeatState
 {
 	public static var initialized:Bool = false;
 	public static var closedState:Bool = false;
-	
+
 	var skippedIntro:Bool = false;
 	var transitioning:Bool = false;
 	
@@ -27,6 +28,7 @@ class TitleState extends MusicBeatState
 	var textGroup:Null<FlxGroup> = null;
 	var logo:Null<FlxSprite> = null;
 	var titleText:Null<FlxSprite> = null;
+	var bgCool:Null<FlxSprite> = null;
 	var swagShader:Null<ColorSwap> = null;
 	
 	var danceLeft:Bool = false;
@@ -76,16 +78,19 @@ class TitleState extends MusicBeatState
 		if (scriptGroup.call('onStartIntro') != ScriptConstants.STOP_FUNC)
 		{
 			swagShader = new ColorSwap();
-			
-			logo = new FlxSprite(280, 200).loadAtlasFrames(Paths.getAtlasFrames('menus/title/logoBumpin'));
+
+			bgCool = new FlxSprite(-50, -25).loadGraphic(Paths.image("menus/title/sekai"));
+    		bgCool.scrollFactor.set();
+			add(bgCool);
+
+			logo = new FlxSprite(180, 200).loadAtlasFrames(Paths.getAtlasFrames('menus/title/logoBumpin'));
 			logo.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 			logo.animation.play('bump');
 			logo.updateHitbox();
-	        logo.scale.set(1.4, 1.4);
 			add(logo);
 			logo.shader = swagShader.shader;
 			
-			titleText = new FlxSprite(100, 576).loadAtlasFrames(Paths.getAtlasFrames('menus/title/titleEnter'));
+			titleText = new FlxSprite(130, 576).loadAtlasFrames(Paths.getAtlasFrames('menus/title/titleEnter'));
 			titleText.animation.addByPrefix('idle', "Press Enter to Begin", 24);
 			titleText.animation.addByPrefix('press', "ENTER PRESSED", 24);
 			titleText.animation.play('idle');
@@ -94,7 +99,8 @@ class TitleState extends MusicBeatState
 			
 			textGroup = new FlxGroup();
 			add(textGroup);
-			
+
+            bgCool.alpha = 0.001;
 			logo.alpha = 0.001;
 			titleText.alpha = 0.001;
 		}
@@ -251,6 +257,7 @@ class TitleState extends MusicBeatState
 		{
 			textGroup?.kill();
 			
+			if (bgCool != null) bgCool.alpha = 0.5;
 			if (logo != null) logo.alpha = 1;
 			if (titleText != null) titleText.alpha = 1;
 			

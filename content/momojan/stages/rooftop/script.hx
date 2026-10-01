@@ -233,7 +233,7 @@ function onStartCountdown()
 
         add(dialogueBox);
 
-    if (songName == 'step')
+    if (songName == 'step' || 'love')
     {
         blackYnot.alpha = 0;
     }

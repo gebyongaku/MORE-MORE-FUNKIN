@@ -53,7 +53,7 @@ class CreditsState extends MusicBeatState
 		// MMF team lololo
 		['MMF Team'],
 		['gi', 'gi', 'Director, Animator, Artist, Writer, Composer, Charter and Coder', 'https://twitter.com/gebyongaku', '0x53B7D8'],
-		['ovo', 'ovo', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xFFF9A250'],
+		['ovo', 'ovo', 'Artist and Composer', 'https://x.com/pitySoliloquy', '0xFFFFBDD7'],
 		['lwverin', 'lwverin', 'Background and Menu Artist', 'https://twitter.com/lwverin', '0xFF780000'],
 		['AquelaAylaLa', 'ayla', 'Writer', 'https://twitter.com/AquelaAylaLa', '0xFFFFFFFF'],
 	    ['Felix', 'felixkuyamu', 'Ideas and Playtester', 'https://twitter.com/ichishihofan41', '0xFF99CCFF'],
