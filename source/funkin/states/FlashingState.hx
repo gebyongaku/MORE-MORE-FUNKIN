@@ -27,7 +27,7 @@ class FlashingState extends MusicBeatState
 			Press ENTER to disable them now or go to Options Menu.\n
 			Press ESCAPE to ignore this message.\n
 			You've been warned!\n
-			PRESS 0 OR + TO TURN ON AUDIO", 36);
+			Press + or 0 to turn on audio.", 36);
 		warnText.setFormat(Paths.font("FOT-RodinNTLG Pro DB.otf"), 36, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);

@@ -61,6 +61,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeft.frames = Paths.getSparrowAtlas('dialogue/characters/portraitLeft');
 		portraitLeft.animation.addByPrefix('minori', 'minori0', 24, false);
 		portraitLeft.animation.addByPrefix('minoriwoah', 'minoriwoah', 24, false);
+		portraitLeft.animation.addByPrefix('minorisleep', 'minorisleep', 24, false);
 		portraitLeft.animation.addByPrefix('minoriscary', 'minoriscary', 24, false);
 		portraitLeft.animation.addByPrefix('minorithink', 'minorithink', 24, false);
 		portraitLeft.animation.addByPrefix('minorikawaii', 'minorikawaii', 24, false);
@@ -118,7 +119,7 @@ class DialogueBox extends FlxSpriteGroup
 		charName.borderSize = 3.5;
 		add(charName);
 		
-		swagDialogue = new FlxTypeText(140, 560, Std.int(FlxG.width * 0.6), "", 30);
+		swagDialogue = new FlxTypeText(140, 560, Std.int(FlxG.width * 0.8), "", 30);
 		swagDialogue.font = 'FOT RodinNTLGPro EB.otf';
 		swagDialogue.color = FlxColor.WHITE;
 		swagDialogue.borderStyle = FlxTextBorderStyle.OUTLINE;
@@ -139,7 +140,7 @@ class DialogueBox extends FlxSpriteGroup
 	{
 		switch (curCharacter)
         {
-		    case 'minori' | 'minoriwoah' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
+		    case 'minori' | 'minoriwoah' | 'minorisleep' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
 			    swagDialogue.sounds = [FlxG.sound.load(Paths.sound('minoripixel'), 0.6)];	
             case 'haruka' | 'harukawoah' | 'harukathink' | 'harukasmile':
 			    swagDialogue.sounds = [FlxG.sound.load(Paths.sound('harukapixel'), 0.5)];	
@@ -172,6 +173,8 @@ class DialogueBox extends FlxSpriteGroup
 					{
 						isEnding = true;
 							
+                        FlxG.sound.music.fadeOut(1, 0);
+
 						FlxTween.tween(box, {alpha: 0}, 1);
 						FlxTween.tween(bgDia, {alpha: 0}, 1);
 						portraitLeft.visible = false;
@@ -209,7 +212,7 @@ class DialogueBox extends FlxSpriteGroup
     {
         switch (curCharacter)
         {
-            case 'minori' | 'minoriwoah' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
+            case 'minori' | 'minoriwoah' | 'minorisleep' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
                 charName.text = 'Minori';
             case 'haruka' | 'harukawoah' | 'harukathink' | 'harukasmile':
                 charName.text = 'Haruka';
@@ -253,7 +256,7 @@ class DialogueBox extends FlxSpriteGroup
 	{
     	switch (character)
     	{
-    	    case 'minori' | 'minoriwoah' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
+    	    case 'minori' | 'minoriwoah' | 'minorisleep' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
     	        return 'minori';
     	    case 'haruka' | 'harukawoah' | 'harukathink' | 'harukasmile':
      	       return 'haruka';
@@ -301,7 +304,7 @@ class DialogueBox extends FlxSpriteGroup
 			case 'none':
 				portraitRight.visible = false;
 				portraitLeft.visible = false;
-			case 'minori' | 'minoriwoah' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
+			case 'minori' | 'minoriwoah' | 'minorisleep' | 'minoriscary' | 'minorithink' | 'minorikawaii' | 'minoridead':
     		    portraitRight.visible = false;
     		    portraitLeft.visible = true;
         		portraitLeft.animation.play(curCharacter);

@@ -1,3 +1,19 @@
+var endingPlayed:Bool = false;
+
+function onEndSong()
+{
+	if (PlayState.isStoryMode && !endingPlayed)
+	{
+		endingPlayed = true;
+		endingCutscene = true;
+
+		videoCutscene('gift', false);
+
+		return Function_Stop;
+	}
+
+	return Function_Continue;
+}
 
 function onEvent(eventName, value1, value2)
 {

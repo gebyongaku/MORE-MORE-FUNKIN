@@ -15,10 +15,11 @@
 	<SubTexture name="minoridead0000" x="1407" y="524" width="469" height="523"/>
 	<SubTexture name="minorikawaii0000" x="1876" y="524" width="469" height="523"/>
 	<SubTexture name="minoriscary0000" x="2345" y="524" width="469" height="523"/>
-	<SubTexture name="minorithink0000" x="2814" y="524" width="469" height="523"/>
-	<SubTexture name="minoriwoah0000" x="0" y="1047" width="469" height="523"/>
-	<SubTexture name="shizuku0000" x="469" y="1047" width="469" height="523"/>
-	<SubTexture name="shizukuarmup0000" x="938" y="1047" width="469" height="523"/>
-	<SubTexture name="shizukuhappy0000" x="1407" y="1047" width="469" height="523"/>
-	<SubTexture name="shizukuwoah0000" x="1876" y="1047" width="469" height="523"/>
+	<SubTexture name="minorisleep0000" x="2814" y="524" width="469" height="523"/>
+	<SubTexture name="minorithink0000" x="0" y="1047" width="469" height="523"/>
+	<SubTexture name="minoriwoah0000" x="469" y="1047" width="469" height="523"/>
+	<SubTexture name="shizuku0000" x="938" y="1047" width="469" height="523"/>
+	<SubTexture name="shizukuarmup0000" x="1407" y="1047" width="469" height="523"/>
+	<SubTexture name="shizukuhappy0000" x="1876" y="1047" width="469" height="523"/>
+	<SubTexture name="shizukuwoah0000" x="2345" y="1047" width="469" height="523"/>
 </TextureAtlas>

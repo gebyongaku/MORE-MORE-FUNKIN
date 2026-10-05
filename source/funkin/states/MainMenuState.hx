@@ -40,6 +40,8 @@ class MainMenuState extends MusicBeatState
 	var phone:Null<FlxSprite> = null;
 	var magenta:Null<FlxSprite> = null;
 
+	static var naoseguida:String = '';
+
 	override function create()
 	{
 		#if MODS_ALLOWED
@@ -82,7 +84,7 @@ class MainMenuState extends MusicBeatState
 		
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 20;
+			var offset:Float = 108 - (Math.max(optionShit.length, 5) - 5) * 20;
 	
 			final menuItem:FlxSprite = new FlxSprite(posX[i], posY[i]);
 			menuItem.frames = Paths.getSparrowAtlas('menus/mainmenu/menu_' + optionShit[i]);
@@ -93,7 +95,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.ID = i;
 			menuItems.add(menuItem);
 			
-			final scr:Float = optionShit.length < 6 ? 0 : (optionShit.length - 4) * 0.135;
+			final scr:Float = optionShit.length < 6 ? 0 : (optionShit.length - 5) * 0.135;
 			
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.updateHitbox();
@@ -107,11 +109,29 @@ class MainMenuState extends MusicBeatState
         for (i in 0...1)
         {
             var momojaRandom = Path.withoutExtension(FlxG.random.getObject(folder));
+
+            while (momojaRandom == naoseguida)
+            {
+                momojaRandom = Path.withoutExtension(FlxG.random.getObject(folder));
+            }
+
+            naoseguida = momojaRandom;
+
             var mmjin:FlxSprite = new FlxSprite(25, 25);
 
             mmjin.frames = Paths.getSparrowAtlas('menus/momojanin/' + momojaRandom);
             mmjin.animation.addByPrefix('idle', 'idle', 24);
             mmjin.animation.play('idle');
+
+            switch (momojaRandom)
+                {
+                    case 'airi':
+                        mmjin.x = -25;
+                        mmjin.y = 40;
+                    case 'samochan':
+                        mmjin.x = -125;
+						mmjin.y = 40;
+                }
 
             mmjnins.add(mmjin);
         }

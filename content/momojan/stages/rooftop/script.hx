@@ -1,8 +1,10 @@
 import funkin.backend.Conductor;
+import funkin.game.shaders.DropShadowShader;
 import funkin.objects.Bopper;
 import funkin.utils.MathUtil;
 
 var ceu:FlxSprite;
+var ceuTarde:FlxSprite;
 var clouds:FlxSprite;
 var predio:FlxSprite;
 var front:FlxSprite;
@@ -11,6 +13,10 @@ var songName:String = Paths.sanitize(PlayState.SONG.song);
 
 function onLoad() 
 {
+    ceuTarde = new FlxSprite(-1135, -1161).loadGraphic(Paths.image("MMJ/ceuTarde"));
+    ceuTarde.scale.set(1, 1);
+    ceuTarde.scrollFactor.set(0.1, 0.1);
+	add(ceuTarde);
 
     ceu = new FlxSprite(-1135, -1161).loadGraphic(Paths.image("MMJ/ceu"));
     ceu.scale.set(1, 1);
@@ -163,6 +169,7 @@ function onLoad()
 
     if (songName == "gift")
     {
+
         add(minori3);
         add(haruka3);
         add(corpo);
@@ -176,7 +183,6 @@ function onLoad()
 		if (danceDir) animation.play('danceRight', true);
 		else animation.play('danceLeft', true);
 	}
-
 }
 
 function onCountdownTick()
@@ -233,7 +239,7 @@ function onStartCountdown()
 
         add(dialogueBox);
 
-    if (songName == 'step' || 'love')
+    if (songName == 'step' || songName == 'love')
     {
         blackYnot.alpha = 0;
     }
@@ -268,6 +274,37 @@ function onEvent(name, v1, v2)
 					snapCamToPos(510, 350);
 				case 'normal':
 					isCameraOnForcedPos = false;
+                case 'gift':
+                    var time = 67;
+
+                    var sprites = [
+                        [boyfriend, 1, 0xFFDDB9A2],
+                        [gf, 1, 0xFFDDB9A2],
+                        [dad, 1, 0xFFDDB9A2],
+
+                        [minori3, 1, 0xFFDDB9A2],
+                        [haruka3, 1, 0xFFDDB9A2],
+                        [corpo, 1, 0xFFDDB9A2],
+                        [airi3, 1, 0xFFDDB9A2],
+
+                        [clouds, 1, 0xFFDDB9A2],
+                        [predio, 1, 0xFFDDB9A2],
+                        [front, 1, 0xFFDDB9A2]
+                    ];
+
+                for (data in sprites)
+                {
+                    var spr = data[0];
+                    var alpha = data[1];
+                    var finalColor = data[2];
+
+                    spr.alpha = alpha;
+
+                    FlxTween.color(spr, time, spr.color, finalColor);
+                    FlxTween.tween(spr, {alpha: alpha}, time);
+                }
+
+                FlxTween.tween(ceu, {alpha: 0}, time);
             }
     }
 }

@@ -1,3 +1,7 @@
+function onLoad()
+{
+	videoCutscene('love', true);
+}
 
 function onEvent(eventName, value1, value2)
 {
