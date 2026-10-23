@@ -136,7 +136,7 @@ class DialogueBox extends FlxSpriteGroup
 	var dialogueStarted:Bool = false;
 	var dialogueEnded:Bool = false;
 	
-	override function update(elapsed:Float)
+	override function update(elapsed:Float) // por favor nao me batam pelo fato do meu codigo ser ruim pfvr eu tentei meu melhor tenho medo desculpa
 	{
 		switch (curCharacter)
         {
@@ -175,14 +175,14 @@ class DialogueBox extends FlxSpriteGroup
 							
                         FlxG.sound.music.fadeOut(1, 0);
 
-						FlxTween.tween(box, {alpha: 0}, 1);
-						FlxTween.tween(bgDia, {alpha: 0}, 1);
+						FlxTween.tween(box, {alpha: 0}, 0.8);
+						FlxTween.tween(bgDia, {alpha: 0}, 0.8);
 						portraitLeft.visible = false;
 						portraitRight.visible = false;
-						charName.visible = false;
-						swagDialogue.visible = false;
+						FlxTween.tween(charName, {alpha: 0}, 0.8);
+						FlxTween.tween(swagDialogue, {alpha: 0}, 0.8);
 						
-						new FlxTimer().start(1.05, function(tmr:FlxTimer) {
+						new FlxTimer().start(0.85, function(tmr:FlxTimer) {
 							finishThing();
 							kill();
 						});
@@ -242,17 +242,17 @@ class DialogueBox extends FlxSpriteGroup
  	       targetY = portraitRightY;
 
 	    portrait.y = targetY + 10;
-	    portrait.alpha = 0;
+	    portrait.alpha = 0.5;
 
 	    FlxTween.cancelTweensOf(portrait);
 
-	    FlxTween.tween(portrait, {y: targetY, alpha: 1}, 0.1);
+	    FlxTween.tween(portrait, {y: targetY, alpha: 1}, 0.065);
 	}
 
 	var isEnding:Bool = false;
 	var vaivaivai:String = '';
 
-	function grupinhoaitocomsono(character:String):String
+	function portraitGroup(character:String):String
 	{
     	switch (character)
     	{
@@ -284,10 +284,10 @@ class DialogueBox extends FlxSpriteGroup
 		
 		dialogueEnded = false;
 
-    	var grupinhoaitocomsono:String = grupinhoaitocomsono(curCharacter);
-    	var mudou:Bool = grupinhoaitocomsono != vaivaivai;
+    	var portraitGroup:String = portraitGroup(curCharacter);
+    	var mudou:Bool = portraitGroup != vaivaivai;
 
-    	vaivaivai = grupinhoaitocomsono;
+    	vaivaivai = portraitGroup;
 
         switch (curCharacter)
 		{
@@ -355,7 +355,7 @@ class DialogueBox extends FlxSpriteGroup
 		}
 	}
 	// que bonitinho kkkk
-	// brigada raul
+	// brigada raul ig...
 	
 	function cleanDialog():Void
 	{
