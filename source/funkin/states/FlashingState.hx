@@ -26,10 +26,9 @@ class FlashingState extends MusicBeatState
 			This Mod contains some flashing lights!\n
 			Press ENTER to disable them now or go to Options Menu.\n
 			Press ESCAPE to ignore this message.\n
-			You've been warned!\n
-			Press + or 0 to turn on audio.", 36);
+			You've been warned!", 36);
 		warnText.setFormat(Paths.font("FOT-RodinNTLG Pro DB.otf"), 36, FlxColor.WHITE, CENTER);
-		warnText.screenCenter(Y);
+		warnText.screenCenter();
 		add(warnText);
 	}
 	

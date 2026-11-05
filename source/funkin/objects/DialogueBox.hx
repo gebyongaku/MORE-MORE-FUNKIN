@@ -16,6 +16,7 @@ import funkin.states.*;
 class DialogueBox extends FlxSpriteGroup
 {
 	var box:FlxSprite;
+	var skipText:FlxText;
 	
 	var curCharacter:String = '';
 	
@@ -34,7 +35,7 @@ class DialogueBox extends FlxSpriteGroup
 	
 	var bgDia:FlxSprite;
 	
-	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>) // pessoa que estiver lendo isso ignora que o codigo eh feio eu sou novata guuuh :<
+	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>) // pessoa que estiver lendo isso ignora que o codigo eh feio eu sou novata guuuh :< CALA BOCA GI nao escutem ela ok
 	{
 		super();
 		
@@ -56,7 +57,8 @@ class DialogueBox extends FlxSpriteGroup
 		this.dialogueList = dialogueList;
 		
 		if (!hasDialog) return;
-		
+        
+        // puta que PARIU
         portraitLeft = new FlxSprite(110, 15);
 		portraitLeft.frames = Paths.getSparrowAtlas('dialogue/characters/portraitLeft');
 		portraitLeft.animation.addByPrefix('minori', 'minori0', 24, false);
@@ -119,6 +121,14 @@ class DialogueBox extends FlxSpriteGroup
 		charName.borderSize = 3.5;
 		add(charName);
 		
+		skipText = new FlxText(815, 690, "Press BACKSPACE to skip dialogue.", 24);
+		skipText.font = 'FOT RodinNTLGPro EB.otf';
+		skipText.color = FlxColor.WHITE;
+	    skipText.borderStyle = FlxTextBorderStyle.OUTLINE;
+		skipText.borderColor = 0xFF605D7A;
+		skipText.borderSize = 2.5;
+		add(skipText);
+	
 		swagDialogue = new FlxTypeText(140, 560, Std.int(FlxG.width * 0.8), "", 30);
 		swagDialogue.font = 'FOT RodinNTLGPro EB.otf';
 		swagDialogue.color = FlxColor.WHITE;
@@ -128,15 +138,13 @@ class DialogueBox extends FlxSpriteGroup
 		add(swagDialogue);
 		
 		dialogue = new Alphabet(0, 0, "", false);
-		// dialogue.x = 90;
-		// add(dialogue);
 	}
 	
 	var dialogueOpened:Bool = false;
 	var dialogueStarted:Bool = false;
 	var dialogueEnded:Bool = false;
 	
-	override function update(elapsed:Float) // por favor nao me batam pelo fato do meu codigo ser ruim pfvr eu tentei meu melhor tenho medo desculpa
+	override function update(elapsed:Float)
 	{
 		switch (curCharacter)
         {
@@ -162,6 +170,11 @@ class DialogueBox extends FlxSpriteGroup
 			dialogueStarted = true;
 		}
 		
+		if (Controls.instance.BACK)
+		{
+		    endDialogue();
+		}
+
 		if (Controls.instance.ACCEPT)
 		{
 			if (dialogueEnded)
@@ -169,29 +182,12 @@ class DialogueBox extends FlxSpriteGroup
 				remove(dialogue);
 				if (dialogueList[1] == null && dialogueList[0] != null)
 				{
-					if (!isEnding)
-					{
-						isEnding = true;
-							
-                        FlxG.sound.music.fadeOut(1, 0);
-
-						FlxTween.tween(box, {alpha: 0}, 0.8);
-						FlxTween.tween(bgDia, {alpha: 0}, 0.8);
-						portraitLeft.visible = false;
-						portraitRight.visible = false;
-						FlxTween.tween(charName, {alpha: 0}, 0.8);
-						FlxTween.tween(swagDialogue, {alpha: 0}, 0.8);
-						
-						new FlxTimer().start(0.85, function(tmr:FlxTimer) {
-							finishThing();
-							kill();
-						});
-					}
+				    endDialogue();
 				}
 				else
 				{
-					dialogueList.remove(dialogueList[0]);
-					startDialogue();
+				    dialogueList.remove(dialogueList[0]);
+                    startDialogue();
 				}
 			}
 			else if (dialogueStarted)
@@ -204,7 +200,7 @@ class DialogueBox extends FlxSpriteGroup
 				}
 			}
 		}
-		
+
 		super.update(elapsed);
 	}
 
@@ -246,7 +242,7 @@ class DialogueBox extends FlxSpriteGroup
 
 	    FlxTween.cancelTweensOf(portrait);
 
-	    FlxTween.tween(portrait, {y: targetY, alpha: 1}, 0.065);
+	    FlxTween.tween(portrait, {y: targetY, alpha: 1}, 0.06);
 	}
 
 	var isEnding:Bool = false;
@@ -278,7 +274,8 @@ class DialogueBox extends FlxSpriteGroup
         theCharName();
 		swagDialogue.resetText(dialogueList[0]);
 		swagDialogue.start(0.065, true);
-		swagDialogue.completeCallback = function() {
+		swagDialogue.completeCallback = function()
+		{
 			dialogueEnded = true;
 		};
 		
@@ -355,8 +352,34 @@ class DialogueBox extends FlxSpriteGroup
 		}
 	}
 	// que bonitinho kkkk
-	// brigada raul ig...
+	// brigada raul mas voce mentiu
 	
+	function endDialogue()
+	{
+    	if (!isEnding)
+    	{
+        	isEnding = true;
+
+        	FlxG.sound.music.fadeOut(1, 0);
+
+        	FlxTween.tween(box, {alpha: 0}, 0.8);
+        	FlxTween.tween(bgDia, {alpha: 0}, 0.8);
+
+        	portraitLeft.visible = false;
+        	portraitRight.visible = false;
+
+        	FlxTween.tween(charName, {alpha: 0}, 0.8);
+        	FlxTween.tween(skipText, {alpha: 0}, 0.8);
+        	FlxTween.tween(swagDialogue, {alpha: 0}, 0.8);
+
+        	new FlxTimer().start(0.85, function(tmr:FlxTimer)
+        	{
+        	    finishThing();
+        	    kill();
+        	});
+    	}
+	}
+
 	function cleanDialog():Void
 	{
 		var splitName:Array<String> = dialogueList[0].split(":");

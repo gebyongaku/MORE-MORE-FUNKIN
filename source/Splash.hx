@@ -152,10 +152,7 @@ class Splash extends FlxState
 	}
 
 	function complete()
-	{
-		FlxG.sound.muted = FlxG.save.data.mute;
-		FlxG.sound.volume = FlxG.save.data.volume;
-		
+	{		
 		FlxG.autoPause = _cachedAutoPause;
 		FlxG.switchState(() -> Type.createInstance(Main.startMeta.initialState, []));
 	}

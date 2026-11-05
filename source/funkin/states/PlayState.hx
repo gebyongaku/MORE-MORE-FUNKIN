@@ -45,6 +45,7 @@ import funkin.states.transitions.ScriptedTransition;
 import funkin.game.modchart.*;
 import funkin.game.StoryMeta;
 import funkin.game.Countdown;
+import funkin.input.Controls;
 import funkin.input.InputSystem;
 import funkin.input.InputEvent;
 import funkin.audio.SyncedFlxSoundGroup;
@@ -1737,7 +1738,7 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 		input.update();
 
-		if (FlxG.keys.justPressed.SPACE)
+		if (FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER)
 		{
 			if (vidPlaying && skippableVideo)
 			{
